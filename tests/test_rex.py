@@ -377,8 +377,9 @@ def run_all():
             all_functions[f]()
 
 if __name__ == "__main__":
-    import sys
-    if len(sys.argv) > 1:
-        globals()['test_' + sys.argv[1]]()
-    else:
-        run_all()
+    #import sys
+    #if len(sys.argv) > 1:
+        #globals()['test_' + sys.argv[1]]()
+    #else:
+        #run_all()
+    test_linux_stacksmash()
