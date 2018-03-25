@@ -1,0 +1,1000 @@
+ 1006  cd ..
+ 1007  cd `
+ 1008  c
+ 1009  cd `
+ 1010  cd ~
+ 1011  ls
+ 1012  cd /home/vagrant/
+ 1013  ls
+ 1014  cd roputils/
+ 1015  ls
+ 1016  vi y.py 
+ 1017  cd /dev/shm/
+ 1018  ls
+ 1019  cat trae-test 
+ 1020  vi trae-test 
+ 1021  cd ~
+ 1022  ls
+ 1023  mkdir angr7
+ 1024  cd angr7
+ 1025  virtualenv angr7-env
+ 1026  ls
+ 1027  cd angr7
+ 1028  cd angr7-env/
+ 1029  ls
+ 1030  cd bin
+ 1031  ls
+ 1032  cd ..
+ 1033  source bin/activate
+ 1034  ls
+ 1035  pip install angr
+ 1036  python
+ 1037  git clone https://github.com/shellphish/rex.git
+ 1038  ls
+ 1039  cd rex/
+ 1040  ls
+ 1041  python setup.py install
+ 1042  pip install requirements.txt 
+ 1043  pip install -r requirements.txt 
+ 1044  vi requirements.txt 
+ 1045  pip install -r requirements.txt 
+ 1046  vi requirements.txt 
+ 1047  pip install -r requirements.txt 
+ 1048  python
+ 1049  ls
+ 1050  pythong setup.py install
+ 1051  python setup.py install
+ 1052  python
+ 1053  git clone https://github.com/mechaphish/povsim.git
+ 1054  ls
+ 1055  cd povsim/
+ 1056  ls
+ 1057  python setup.py install
+ 1058  python
+ 1059  git clone https://github.com/mechaphish/compilerex.git
+ 1060  ls
+ 1061  cd compilerex/
+ 1062  l
+ 1063  python setup.py install
+ 1064  ls
+ 1065  python 
+ 1066  ls
+ 1067  cd ..
+ 1068  ls
+ 1069  cd .
+ 1070  cd ..
+ 1071  ls
+ 1072  python setup.py install
+ 1073  ls
+ 1074  pyton 
+ 1075  import rex
+ 1076  python
+ 1077  ls
+ 1078  cd ..
+ 1079  ls
+ 1080  cd PycharmProjects/
+ 1081  ls
+ 1082  cd ..
+ 1083  cd pycharm-2017.2.3/
+ 1084  l
+ 1085  cd bin/
+ 1086  ls
+ 1087  ./pycharm.sh 
+ 1088  cd ../../angr7/
+ 1089  sl
+ 1090  ls
+ 1091  virtualenv -p /usr/bin/python2.7/ angr7-env/
+ 1092  virtualenv -p /usr/bin/python2.7 angr7-env/
+ 1093  virtualenv -p /usr/bin/python2.7 angr7-env
+ 1094  ls
+ 1095  cd angr7-env/
+ 1096  l
+ 1097  cd bin/
+ 1098  ls
+ 1099  cd ..
+ 1100  ls
+ 1101  cd ..
+ 1102  ls
+ 1103  cd ..
+ 1104  python
+ 1105  cd angr7/
+ 1106  ls
+ 1107  cd angr7-env/
+ 1108  source bin/activate
+ 1109  pip list
+ 1110  pip install -U angr
+ 1111  pip list
+ 1112  pip install -U colorguard
+ 1113  cd ..
+ 1114  ls
+ 1115  cd angr7-env/
+ 1116  ls
+ 1117  cd rex/
+ 1118  ls
+ 1119  cd colorguard/
+ 1120  ls
+ 1121  pyhon setup.py install
+ 1122  python setup.py install
+ 1123  pip install -U colorguard
+ 1124  cd ..
+ 1125  ls
+ 1126  cd ..
+ 1127  git clone https://github.com/angr/binaries.git
+ 1128  pip install TracerPoV
+ 1129  pip list
+ 1130  pip install -U tracer
+ 1131  cd rex/
+ 1132  s
+ 1133  ls
+ 1134  cd ..
+ 1135  git clone https://github.com/angr/tracer.git
+ 1136  ls
+ 1137  cd tracer/
+ 1138  ls
+ 1139  pip install -r requirements.txt 
+ 1140  vi requirements.txt 
+ 1141  pip install -r requirements.txt 
+ 1142  git clone https://github.com/mechaphish/topsecret.git
+ 1143  ls
+ 1144  cd topsecret/
+ 1145  ls
+ 1146  cd ..
+ 1147  vi requirements.txt 
+ 1148  python setup.py install
+ 1149  ls
+ 1150  cd tracer
+ 1151  ls
+ 1152  cd ..
+ 1153  ls
+ 1154  pip install tracer
+ 1155  ls
+ 1156  python setup.py install
+ 1157  ls
+ 1158  cd ..
+ 1159  cd ../..
+ 1160  ls
+ 1161  rm -rf angr7
+ 1162  mkdir angr7
+ 1163  cd angr7
+ 1164  ls
+ 1165  virtualenv angr7-env
+ 1166  ls
+ 1167  cd angr7-env/
+ 1168  source bin/activate
+ 1169  ls
+ 1170  cd ..
+ 1171  ls
+ 1172  pip install angr
+ 1173  pip list
+ 1174  ls
+ 1175  git clone https://github.com/angr/tracer.git
+ 1176  cd tracer/
+ 1177  ls
+ 1178  vi requirements.txt 
+ 1179  apt-get build-dep qemu-system
+ 1180  sudo apt-get build-dep qemu-system
+ 1181  ls
+ 1182  apt-get install libacl1-dev
+ 1183  sudo apt-get install libacl1-dev
+ 1184  ls
+ 1185  cd tracer/
+ 1186  ls
+ 1187  cd ..
+ 1188  ls
+ 1189  git clone https://github.com/angr
+ 1190  git clone https://github.com/angr/binaries.git
+ 1191  ls
+ 1192  git clone https://github.com/shellphish/shellphish-afl.git
+ 1193  git clone https://github.com/shellphish/shellphish-qemu.git
+ 1194  cd shellphish-qemu/
+ 1195  ls
+ 1196  ./rebuild.sh 
+ 1197  ls
+ 1198  cd ..
+ 1199  ls
+ 1200  git clone https://github.com/shellphish/rex.git
+ 1201  pip list
+ 1202  git clone https://github.com/salls/angrop.git
+ 1203  ls
+ 1204  cd angr
+ 1205  cd angrop/
+ 1206  ls
+ 1207  pip install -r requirements.txt 
+ 1208  ls
+ 1209  python setup.py install
+ 1210  pip list
+ 1211  pip install -U angrop
+ 1212  ls
+ 1213  cd ..
+ 1214  ls
+ 1215  git clone https://github.com/mechaphish/compilerex.git
+ 1216  git clone https://github.com/mechaphish/povsim.git
+ 1217  ls
+ 1218  python setup.py install
+ 1219  pip list
+ 1220  ls
+ 1221  cd ..
+ 1222  ls
+ 1223  cd tracer/
+ 1224  ls
+ 1225  python setup.py install
+ 1226  pip list
+ 1227  cd ..
+ 1228  cd rex/
+ 1229  ls
+ 1230  python setup.py install
+ 1231  pip list
+ 1232  ls
+ 1233  python
+ 1234  git clone https://github.com/mechaphish/compilerex.git
+ 1235  ls
+ 1236  cd compilerex/
+ 1237  ls
+ 1238  ./compile.sh test/pov_palindrome_type_1.c -o pov_palindrome_type_1
+ 1239  ./compile.sh
+ 1240  ls
+ 1241  python setup.py install
+ 1242  cd..
+ 1243  ls
+ 1244  python 
+ 1245  pip list
+ 1246  pip isntall nose
+ 1247  pip install nose
+ 1248  cd ..
+ 1249  git clone https://github.com/mechaphish/colorguard.git
+ 1250  ls
+ 1251  cd colorguard/
+ 1252  ls
+ 1253  python setup.py install
+ 1254  ls
+ 1255  cd build/
+ 1256  ls
+ 1257  cd lib.linux-x86_64-2.7/
+ 1258  ls
+ 1259  cd ..
+ 1260  ls
+ 1261  cd ..
+ 1262  ls
+ 1263  cd colorguard/
+ 1264  ls
+ 1265  cd ..
+ 1266  ls
+ 1267  python
+ 1268  ls
+ 1269  cd ..
+ 1270  ls
+ 1271  git clone https://github.com/angr/angr.git
+ 1272  pip install onkeyhex
+ 1273  pip install monkeyhex
+ 1274  pip list
+ 1275  quit()
+ 1276  cd ..
+ 1277  ls
+ 1278  cd env/
+ 1279  source bin/activate
+ 1280  pip list
+ 1281  python 
+ 1282  pip list
+ 1283  python 
+ 1284  cd ..
+ 1285  cd angr7/
+ 1286  l
+ 1287  cd angr7-env/
+ 1288  source bin/activate
+ 1289  pip list
+ 1290  cd /home/vagrant/Downloads/
+ 1291  ls
+ 1292  dpkj -i wingide6_6.0.2-1_amd64.deb 
+ 1293  sudo dpkj -i wingide6_6.0.2-1_amd64.deb 
+ 1294  sudo dpkg -i wingide6_6.0.2-1_amd64.deb 
+ 1295  wing6.0 
+ 1296  python crack.py 
+ 1297  cd ..
+ 1298  ls
+ 1299  mkdir angrsource
+ 1300  cd angrsource/
+ 1301  ls
+ 1302  git clone https://github.com/angr/angr-dev.git
+ 1303  ls
+ 1304  virtualenv env
+ 1305  ls
+ 1306  cd env/
+ 1307  ls
+ 1308  source bin/activate
+ 1309  ls
+ 1310  git clone https://github.com/angr/angr-dev.git
+ 1311  ls
+ 1312  cd ..
+ 1313  ls
+ 1314  cd angr-dev/
+ 1315  ls
+ 1316  sudo apt-get install -y virtualenvwrapper python2.7-dev build-essential sudo libxml2-dev libxslt1-dev git libffi-dev cmake libreadline-dev libtool debootstrap debian-archive-keyring libglib2.0-dev libpixman-1-dev libpq-dev python-dev libc6:i386 libncurses5:i386 libstdc++6:i386 zlib1g:i386 pkg-config zlib1g-dev libtool libtool-bin wget automake autoconf coreutils bison libacl1-dev qemu-user qemu-kvm socat postgresql-client nasm binutils-multiarch llvm clang
+ 1317  ls
+ 1318  ./setup.sh -D ana idalink cooldict mulpyplexer monkeyhex superstruct
+ 1319  shellphish-afl shellphish-qemu capstone unicorn peewee
+ 1320  archinfo vex pyvex cle claripy simuvex angr angr-management angr-doc
+ 1321  binaries identifier fidget angrop tracer fuzzer driller
+ 1322  compilerex povsim rex farnsworth patcherex colorguard
+ 1323  common-utils network_poll_creator patch_performance
+ 1324  ./setup.sh -D ana idalink cooldict mulpyplexer monkeyhex superstruct shellphish-afl shellphish-qemu capstone unicorn peewee archinfo vex pyvex cle claripy simuvex angr angr-management angr-doc binaries identifier fidget angrop tracer fuzzer driller compilerex povsim rex farnsworth patcherex colorguard common-utils network_poll_creator patch_performance worker meister ambassador scriba virtual-competition manual-interaction
+ 1325  ./setup.sh -i angr
+ 1326  ./setup.sh -i rex
+ 1327  ./setup.sh -i shellphish-qemu
+ 1328  ./setup.sh -i povsim angrop compilerex tracer rex
+ 1329  pip list
+ 1330  python
+ 1331  ./setup.sh -i colorguard
+ 1332  '/home/vagrant/angrsource/angr-dev/rex/tests/../../binaries/tests/i386/vuln_stacksmash'
+ 1333  python
+ 1334  pip list
+ 1335  cd binaries/tests/i386/
+ 1336  ls
+ 1337  python
+ 1338  cd angrsource/
+ 1339  ls
+ 1340  cd env
+ 1341  source bin/activate
+ 1342  cd ..
+ 1343  cd angr-dev/
+ 1344  cd binaries/tests/i386/
+ 1345  ls
+ 1346  python
+ 1347  ls
+ 1348  cd ..
+ 1349  ls
+ 1350  ./setup.sh -i cle
+ 1351  pip list
+ 1352  ls
+ 1353  cd binaries/tests/i386/
+ 1354  gdb ./vuln_stacksmash 
+ 1355  gdb ./vuln_stacksmash aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ 1356  gdb ./vuln_stacksmash aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ 1357  gdb ./vuln_stacksmash aaaaaa
+ 1358  gdb ./vuln_stacksmash 
+ 1359  cd ..
+ 1360  ls
+ 1361  cd /home/vagrant/
+ 1362  ls
+ 1363  ssh-keygen -t rsa -C "1076643190@qq.com"
+ 1364  ls
+ 1365  cd .ssh/
+ 1366  ls
+ 1367  cd .ssh/
+ 1368  ls
+ 1369  vi id_rsa
+ 1370  ls
+ 1371  cat id_rsa.pub 
+ 1372  cd ..
+ 1373  mkdir gitcommit
+ 1374  cd gitcommit/
+ 1375  ls
+ 1376  git init
+ 1377  ls
+ 1378  cd .git/
+ 1379  ls
+ 1380  cd ..
+ 1381  ls
+ 1382  git remote add origin git@github.com:tiedaoxiaotubie/In-vivo-Execution.git
+ 1383  git remote rm origin
+ 1384  git remote add origin git@github.com:tiedaoxiaotubie/In-vivo-Execution.git
+ 1385  cd gitcommit/
+ 1386  git remote add origin git@github.com:tiedaoxiaotubie/In-vivo-Execution.git
+ 1387  ls
+ 1388  git remote
+ 1389  ls
+ 1390  cd .git/
+ 1391  ls
+ 1392  cd branches/
+ 1393  ls
+ 1394  cd ..
+ 1395  ls
+ 1396  cd objects/
+ 1397  ls
+ 1398  cd ..
+ 1399  ls
+ 1400  cd ..
+ 1401  git remote set-url origin git@github.com:tiedaoxiaotubie/In-vivo-Execution.git
+ 1402  ls
+ 1403  git push origin master
+ 1404  git status
+ 1405  ls
+ 1406  git add /home/vagrant/angrsource/angr-dev/angr
+ 1407  ls
+ 1408  cp -r /home/vagrant/angrsource/angr-dev/angr .
+ 1409  ls
+ 1410  git add ./angr/
+ 1411  git status
+ 1412  git commit -m "Update angr7.7.12.16"
+ 1413  cd ./.git/
+ 1414  ls
+ 1415  vi config 
+ 1416  git commit -m "Update angr7.7.12.16"
+ 1417  cd ..
+ 1418  ls
+ 1419  git commit -m "Update angr7.7.12.16"
+ 1420  git push origin master
+ 1421  git remote add origin git@github.com:tiedaoxiaotubie/In-vivo-Execution.git
+ 1422  git remote rm origin
+ 1423  git remote add origin git@github.com:tiedaoxiaotubie/In-vivo-Execution.git
+ 1424  git remote set-url origin git@github.com:tiedaoxiaotubie/In-vivo-Execution.git
+ 1425  git push origin master
+ 1426  git push 
+ 1427  git push origin master
+ 1428  git pull git@github.com:tiedaoxiaotubie/In-vivo-Execution.git
+ 1429  ls
+ 1430  git push origin master
+ 1431  git branch -a
+ 1432  git push origin --delete <remote/origin/master>
+ 1433  git push origin --delete remotes/origin/master
+ 1434  git branch -a
+ 1435  git push origin --delete remotes/origin/master
+ 1436  git branch -r -d remotes/origin/master
+ 1437  git branch -r 
+ 1438  git branch -r -d origin/master
+ 1439  git branch -r 
+ 1440  git branch -a
+ 1441  git branch -r
+ 1442  git branch -r -d
+ 1443  git branch -r -d origin/master
+ 1444  git pull git@github.com:tiedaoxiaotubie/In-vivo-Execution.git
+ 1445  ls
+ 1446  git branch -a
+ 1447  git branch -r
+ 1448  git push origin :br
+ 1449  git push origin :master
+ 1450  git status
+ 1451  git add ./angr/
+ 1452  git status
+ 1453  git commit -m "s"
+ 1454  git add ./angr
+ 1455  git status
+ 1456  git commit -m "s"
+ 1457  cd angr/.git/
+ 1458  ls
+ 1459  vi config 
+ 1460  cd ..
+ 1461  cd .git/
+ 1462  ls
+ 1463  cd ..
+ 1464  cd ./.git/
+ 1465  vi config 
+ 1466  ls
+ 1467  cd ..
+ 1468  ls
+ 1469  git remote add origin git@github.com:tiedaoxiaotubie/In-vivo-Execution.git
+ 1470  git remote rm origin
+ 1471  git remote add origin git@github.com:tiedaoxiaotubie/In-vivo-Execution.git
+ 1472  git remote set-url origin git@github.com:tiedaoxiaotubie/In-vivo-Execution.git
+ 1473  git push origin master 
+ 1474  git branch -r
+ 1475  git push origin :master
+ 1476  git push origin :origin/master
+ 1477  ls
+ 1478  cd ./.git/
+ 1479  ls
+ 1480  vi config
+ 1481  ls
+ 1482  cd ..
+ 1483  ls
+ 1484  git push origin :master
+ 1485  cd ..
+ 1486  cd angrsource/
+ 1487  ls
+ 1488  cd angr-dev/
+ 1489  cd angr
+ 1490  ls
+ 1491  git remote rm origin
+ 1492  git remote add origin git@github.com:tiedaoxiaotubie/invivo.git
+ 1493  git status 
+ 1494  git stash
+ 1495  git config --global user.email "1076643190@qq.com"
+ 1496  git config --global user.name "cyyFh"
+ 1497  git stash
+ 1498  git status
+ 1499  git add
+ 1500  git add .
+ 1501  git pull
+ 1502  git branch 
+ 1503  git checkout invivo-dev 
+ 1504  git 
+ 1505  git status
+ 1506  git checkout -b fuck
+ 1507  git status 
+ 1508  git add .
+ 1509  git status 
+ 1510  git commit -m "fuck"
+ 1511  git checkout invivo-dev 
+ 1512  git pull
+ 1513  git stash 
+ 1514  git status 
+ 1515  git checkout -b cyyFh_invivo-dev
+ 1516  git status 
+ 1517  git add 123.txt 
+ 1518  git commit -m "add no use 123.txt"
+ 1519  git checkout invivo-dev 
+ 1520  git merge cyyFh_invivo-dev 
+ 1521  git push 
+ 1522  git status 
+ 1523  git checkout cyyFh_invivo-dev 
+ 1524  git status 
+ 1525  cd /home/vagrant/Downloads/
+ 1526  ls
+ 1527  pwd
+ 1528  ls
+ 1529  cd ..
+ 1530  ls
+ 1531  cd angrsource/
+ 1532  ls
+ 1533  cd angr-dev/
+ 1534  ls
+ 1535  cd .
+ 1536  cd ..
+ 1537  source env/bin/activate
+ 1538  pip list
+ 1539  quit
+ 1540  quit()
+ 1541  pip list
+ 1542  cd angrsource/
+ 1543  cd angr-dev/
+ 1544  ls
+ 1545  cd angr
+ 1546  ls
+ 1547  git status 
+ 1548  git add .
+ 1549  git commit -m "this add the sim_type function and changed the test_prototypes"
+ 1550  git checkout invivo-dev 
+ 1551  git merge -no-ff cyyFh_invivo-dev 
+ 1552  git merge --no-ff cyyFh_invivo-dev 
+ 1553  git branch 
+ 1554  git push 
+ 1555  git branch -D fuck 
+ 1556  git checkout cyyFh_invivo-dev 
+ 1557  git status 
+ 1558  git branch
+ 1559  git checkout invivo-dev 
+ 1560  git pull
+ 1561  git checkout cyyFh_invivo-dev 
+ 1562  git merge --no-ff invivo-dev 
+ 1563  git status 
+ 1564  git branch
+ 1565  git checkout invivo-dev 
+ 1566  git status 
+ 1567  git add .
+ 1568  git pull
+ 1569  git checkout -b ff
+ 1570  git branch 
+ 1571  git commit -m "drop"
+ 1572  git checkout invivo-dev 
+ 1573  git pull
+ 1574  git checkout cyyFh_invivo-dev 
+ 1575  git merge invivo-dev 
+ 1576  dpkg-reconfigure tzdata 
+ 1577  sudo dpkg-reconfigure tzdata 
+ 1578  ls
+ 1579  cd ..
+ 1580  mkdir 1-8rex
+ 1581  cd 1-8rex/
+ 1582  ls
+ 1583  virtualenv env
+ 1584  source env/bin/activate
+ 1585  git clone git@github.com/angr/angr-dev.git
+ 1586  git clone https://github.com/angr/angr-dev.git
+ 1587  cd angr-dev/
+ 1588  ./setup.sh -i angr
+ 1589  ./setup.sh -i tracer
+ 1590  ./setup.sh -i compilerex shellphish-qemu povsim
+ 1591  pip install nose
+ 1592  python
+ 1593  ./setup.sh -i rex
+ 1594  python
+ 1595  ./setup.sh -i colorguard
+ 1596  ls
+ 1597  cd /home/vagrant/Downloads/
+ 1598  ls
+ 1599  cd pinfo-0.6.8/
+ 1600  ls
+ 1601  cd src/
+ 1602  ls
+ 1603  ./pinfo -m 'python -c 'print "A"*564+"DCBA"''
+ 1604  'python -c 'print "A"*564+"DCBA"''
+ 1605  python -c 'print "A"*564+"DCBA"'
+ 1606  ./pinfo -m AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADCBA
+ 1607  gdb ./pinfo
+ 1608  ./pinfo 
+ 1609  ls
+ 1610  ./pinfo -m 'python -c 'print "A"*600+"DCBA"''
+ 1611  cd ..
+ 1612  ls
+ 1613  cd ..
+ 1614  ls
+ 1615  cd /home/vagrant/
+ 1616  ls
+ 1617  cd /home/vagrant/Downloads/
+ 1618  ls
+ 1619  cd pinfo-0.6.8/
+ 1620  ls
+ 1621  cd src/
+ 1622  ls
+ 1623  ./pinfo -m 'python -c 'print "A"*1000'
+ 1624  ./pinfo -m 'python -c 'print "A"*1000''
+ 1625  ./pinfo -m "aaaaaaaaaaaaaaaaaaa"
+ 1626  ./pinfo -m `python -c 'print "A"*564+"DCBA"'`
+ 1627  ls
+ 1628  python -c 'print "A"*1000'
+ 1629  ./pinfo -m AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ 1630  ./pinfo -m `python -c 'print "A"*564+"DCBA"'`
+ 1631  ./pinfo -m `python -c 'print "A"*600'`
+ 1632  ./pinfo -m `python -c 'print "A"*564+"DCBA"'`
+ 1633  ./pinfo -m `python -c 'print "A"*600'`
+ 1634  pwd
+ 1635  gdb ./pinfo 
+ 1636  gdb ./pinfo -m `python -c 'print "A"*600'`
+ 1637  gdb ./pinfo -m0
+ 1638  gdb ./pinfo 
+ 1639  ls
+ 1640  cd ..
+ 1641  ls
+ 1642  cd /home/vagrant/Downloads/
+ 1643  ls
+ 1644  cd gif2png-2.5.3-81cbd30e0afa530c3b7f372c309cba06c8e84ca8/
+ 1645  ls
+ 1646  cd test/
+ 1647  ls
+ 1648  cd ..
+ 1649  ls
+ 1650  cd ..
+ 1651  cd gif2png-2.5.3-81cbd30e0afa530c3b7f372c309cba06c8e84ca8/
+ 1652  ls
+ 1653  ./configure.in 
+ 1654  vi configure.in 
+ 1655  make
+ 1656  ls
+ 1657  ./specgen.sh 
+ 1658  ls
+ 1659  ./configure.in 
+ 1660  ./web2png 
+ 1661  ls
+ 1662  gdb ./web2png 
+ 1663  ls
+ 1664  ./web2png -m
+ 1665  ./web2png 
+ 1666  ls
+ 1667  cat README 
+ 1668  ls
+ 1669  build
+ 1670  ls
+ 1671  ./configure.in 
+ 1672  ls
+ 1673  cd ..
+ 1674  ls
+ 1675  tar -xvf gk
+ 1676  tar -xz gkCTF.rar
+ 1677  cd ..
+ 1678  cd /home/vagrant/Desktop/
+ 1679  tar -xvf VMwareTools-10.0.0-2977863.tar.gz 
+ 1680  cd vmware-tools-distrib/
+ 1681  ls
+ 1682  ./vmware-install.pl 
+ 1683  sudo ./vmware-install.pl 
+ 1684  sudo ./vmware-install.real.pl 
+ 1685  cd ..
+ 1686  cd /home/vagrant/Downloads/
+ 1687  ls
+ 1688  unzip gkCTF.zip 
+ 1689  cd gkCTF/
+ 1690  ls
+ 1691  cd 工控杯CTF/
+ 1692  ls
+ 1693  cd pwn/
+ 1694  ls
+ 1695  objdump 1.cb4fc2b0-00fb-428e-9188-8400643a999d.fileManager 
+ 1696  objdump -d 1.cb4fc2b0-00fb-428e-9188-8400643a999d.fileManager 
+ 1697  ls
+ 1698  sudo chmod 777 1.cb4fc2b0-00fb-428e-9188-8400643a999d.fileManager 
+ 1699  ./1.cb4fc2b0-00fb-428e-9188-8400643a999d.fileManager 
+ 1700  ls
+ 1701  sudo chmod 777 2.36354e16-fd5e-4f43-9c8c-e58fb1fc9688.stack 
+ 1702  ./2.36354e16-fd5e-4f43-9c8c-e58fb1fc9688.stack 
+ 1703  ls
+ 1704  sudo chmod 3.a3825664-9fa8-4a18-bdb1-9d5dee3bf3bc.play 
+ 1705  sudo chmod 777 3.a3825664-9fa8-4a18-bdb1-9d5dee3bf3bc.play 
+ 1706  ./3.a3825664-9fa8-4a18-bdb1-9d5dee3bf3bc.play 
+ 1707  exit
+ 1708  python
+ 1709  ls
+ 1710  ./vm_machine os.bin 
+ 1711  hd os.bin  
+ 1712  hd -n 10 os.bin  
+ 1713  0b 0c 4
+ 1714  hd -n 10 os.bin  
+ 1715  python exp.py 
+ 1716  ./1.cb4fc2b0-00fb-428e-9188-8400643a999d.fileManager 
+ 1717  python exp.py 
+ 1718  ls
+ 1719  vi test.c
+ 1720  gcc -o test test.c 
+ 1721  ls
+ 1722  ./test 
+ 1723  objdump -d test
+ 1724  objdump -d test | grep target
+ 1725  ./test 
+ 1726  gcc -o test32 test.c -m32
+ 1727  ls
+ 1728  ./test32
+ 1729  objdump -d test32 
+ 1730  objdump -d test32 | grep target
+ 1731  ./test32
+ 1732  gdb ./test32
+ 1733  ./test32
+ 1734  python -c 'print "\x48\xa0\04\x08%.64x%7$n"' | ./test32 
+ 1735  python -c 'print "\x48\xa0\04\x08%.64x%n"' | ./test32 
+ 1736  python -c 'print "\x48\xa0\x04\x08%.64x%7$n"' | ./test32 
+ 1737  python -c 'print "\x48\xa0\x04\x08%.64x%n"' | ./test32 
+ 1738  python -c 'print "\x48\xa0\x04\x08%.64x%8$n"' | ./test32 
+ 1739  python -c 'print "\x48\xa0\x04\x08%.64x%9$n"' | ./test32 
+ 1740  python -c 'print "\x48\xa0\x04\x08%.64x%7$n"' | ./test32 
+ 1741  python -c 'print "%.64x%7$n\x48\xa0\x04\x08"' | ./test3 
+ 1742  python -c 'print "%64x%7$n\x48\xa0\x04\x08"' | ./test3 
+ 1743  python -c 'print "%64c%7$n\x48\xa0\x04\x08"' | ./test3 
+ 1744  python -c 'print "\x48\xa0\x04\x08%.64x%7$n"' | ./test32 
+ 1745  ls
+ 1746  ./1.cb4fc2b0-00fb-428e-9188-8400643a999d.fileManager 
+ 1747  ls
+ 1748  cd ..
+ 1749  ls
+ 1750  unzip ctf--.zip 
+ 1751  ls
+ 1752  cd 工控ctf题目/
+ 1753  ls
+ 1754  cd blind
+ 1755  ls
+ 1756  cd ..
+ 1757  cd blind2/
+ 1758  ls
+ 1759  cd ..
+ 1760  ls
+ 1761  cd ..
+ 1762  ls
+ 1763  unzip ctf2.zip 
+ 1764  ls
+ 1765  cd gkCTF/
+ 1766  ls
+ 1767  cd 工控杯CTF/
+ 1768  ls
+ 1769  cd pwn/
+ 1770  ls
+ 1771  ./3.a3825664-9fa8-4a18-bdb1-9d5dee3bf3bc.play 
+ 1772  ls
+ 1773  python -c 'print "%64x%7$n\x48\xa0\x04\x08"' | ./test3 
+ 1774  python -c 'print "\x48\xa0\x04\x08%.64x%7$n"' | ./test32 
+ 1775  vi input
+ 1776  rm -rf input 
+ 1777  vi input.py
+ 1778  python input.py 
+ 1779  gdb ./test32 
+ 1780  input | ./test32 
+ 1781  vi input
+ 1782  ls
+ 1783  ./test32 
+ 1784  history 
+ 1785  python -c 'print "\x48\xa0\04\x08%.64x%7$n"' | ./test32
+ 1786  python -c 'print "\x48\xa0\04\x08%.64x%7$"'
+ 1787  python -c 'print "\x48\xa0\x04\x08%.64x%7$"'
+ 1788  python -c 'print "\x48\xa0\x04\x08%.64x%7$n"' | ./test32
+ 1789  cat input
+ 1790  input | ./test32 
+ 1791  ./input | ./test32 
+ 1792  input | ./test32 
+ 1793  gdb ./test32 
+ 1794  ls
+ 1795  ./2.36354e16-fd5e-4f43-9c8c-e58fb1fc9688.stack 
+ 1796  ls
+ 1797  cd ..
+ 1798  ls
+ 1799  unzip re.zip 
+ 1800  cd re/
+ 1801  ls
+ 1802  sudo chmod 777 os.bin 
+ 1803  sudo chmod 777 vm_machine 
+ 1804  ls
+ 1805  ./os.bin 
+ 1806  ./vm_machine os.bin 
+ 1807  ls
+ 1808  gdb ./vm_machine os.bin
+ 1809  gdb ./vm_machine 
+ 1810  gdb --args ./vm
+ 1811  ls
+ 1812  gdb ./vm_machine --args os.bin
+ 1813  ls
+ 1814  gdb ./vm_machine 
+ 1815  gdb --args ./vm_machine  os.bin
+ 1816  ls
+ 1817  python
+ 1818  ls
+ 1819  cd /home/vagrant/Downloads/
+ 1820  ls
+ 1821  cd gkCTF/
+ 1822  cd 工控杯CTF/
+ 1823  ls
+ 1824  cd pwn/
+ 1825  ls
+ 1826  vi exp.py
+ 1827  python
+ 1828  ls
+ 1829  ./1.cb4fc2b0-00fb-428e-9188-8400643a999d.fileManager 
+ 1830  gdb ./1.cb4fc2b0-00fb-428e-9188-8400643a999d.fileManager 
+ 1831  cd /home/
+ 1832  ls
+ 1833  cd vagrant/
+ 1834  ls
+ 1835  cd driller/
+ 1836  ls
+ 1837  ping www.baidu.com
+ 1838  cd ..
+ 1839  ls
+ 1840  cd angrsource/
+ 1841  ls
+ 1842  cd ..
+ 1843  ls
+ 1844  cd angr7
+ 1845  ls
+ 1846  cd ..
+ 1847  ls
+ 1848  cd angrsource/
+ 1849  ls
+ 1850  cd env/
+ 1851  ls
+ 1852  cd ..
+ 1853  d angr-dev/
+ 1854  ls
+ 1855  d angr-dev/
+ 1856  cd angr-dev/
+ 1857  ls
+ 1858  cd ..
+ 1859  cd angr7/
+ 1860  ls
+ 1861  cd ..
+ 1862  cd angrsource/
+ 1863  ls
+ 1864  cd angr-dev/
+ 1865  ls
+ 1866  cd ../..
+ 1867  ls
+ 1868  cd driller/
+ 1869  l
+ 1870  ping www.baidu.com
+ 1871  cd ..
+ 1872  cd angrsource/
+ 1873  ls
+ 1874  git
+ 1875  git status 
+ 1876  ls
+ 1877  cd angr-dev/
+ 1878  ls
+ 1879  git status 
+ 1880  git
+ 1881  git branch 
+ 1882  git log
+ 1883  ls
+ 1884  git 
+ 1885  git show
+ 1886  cd ~/PycharmProjects/
+ 1887  ls
+ 1888  pwd
+ 1889  ping www.baidu.com
+ 1890  cd /home/vagrant/angrsource/angr-dev/send-to-ubuntu/新建文件夹\ \(4\)/
+ 1891  ls
+ 1892  ping wwww.baidu.com
+ 1893  cd ~
+ 1894  cd ..
+ 1895  ls
+ 1896  cd vagrant/Downloads/
+ 1897  ls
+ 1898  unzip rhgsourse_code.zip 
+ 1899  cd 21日比赛\ -\ 带源码/
+ 1900  ls
+ 1901  cd pwn09格式化字符串/
+ 1902  ls
+ 1903  vi Makefile 
+ 1904  make
+ 1905  ls
+ 1906  la
+ 1907  ls
+ 1908  make clean 
+ 1909  ls
+ 1910  cd bin/
+ 1911  ls
+ 1912  cd ..
+ 1913  ls
+ 1914  cd bin/
+ 1915  ls
+ 1916  readel;s
+ 1917  readelcd ..
+ 1918  ls
+ 1919  cd ..
+ 1920  ls
+ 1921  make
+ 1922  rm -rf bin/
+ 1923  ls
+ 1924  make
+ 1925  ls
+ 1926  cd bin/
+ 1927  ls
+ 1928  make
+ 1929  ls
+ 1930  cd ..
+ 1931  make clean
+ 1932  rm -rf bin/
+ 1933  ls
+ 1934  mkdir bin
+ 1935  ls
+ 1936  make bin
+ 1937  ls
+ 1938  cd bin
+ 1939  cd ..
+ 1940  ls
+ 1941  cd bin/
+ 1942  ls
+ 1943  cd ..
+ 1944  ls
+ 1945  ping www.baidu.com
+ 1946  ls
+ 1947  cd angrsource/
+ 1948  ls
+ 1949  cd angr-dev/
+ 1950  ls
+ 1951  cd rex/
+ 1952  ls
+ 1953  git log
+ 1954  cd angrsource/
+ 1955  ls
+ 1956  cd angr-dev/rex/
+ 1957  ls
+ 1958  cd .git/
+ 1959  ls
+ 1960  cd ..
+ 1961  git log
+ 1962  cd /media/vagrant/VMware\ Tools/
+ 1963  ls
+ 1964  tar -xzvf VMwareTools-10.2.0-7259539.tar.gz 
+ 1965  sudo tar -xzvf VMwareTools-10.2.0-7259539.tar.gz 
+ 1966  ls
+ 1967  ./run_upgrader.sh 
+ 1968  sudo ./run_upgrader.sh 
+ 1969  cd /home/vagrant/Desktop/
+ 1970  ls
+ 1971  tar -xzvf VMwareTools-10.2.0-7259539.tar.gz 
+ 1972  cd vmware-tools-distrib/
+ 1973  ls
+ 1974  ./vmware-install.pl 
+ 1975  sudo ./vmware-install.pl 
+ 1976  sudo ./vmware-install.real.pl 
+ 1977  mkdir /etc/cups/ppd
+ 1978  sudo mkdir /etc/cups/ppd
+ 1979  sudo ./vmware-install.pl 
+ 1980  sudo ./vmware-install.real.pl 
+ 1981  ping www.baidu.com
+ 1982  cd /home/vagrant/Desktop/
+ 1983  tar -xzvf VMwareTools-10.2.0-7259539.tar.gz 
+ 1984  cd vmware-tools-distrib/
+ 1985  ls
+ 1986  sudo ./vmware-install.pl 
+ 1987  int 6
+ 1988  reboot
+ 1989  cd /home/vagrant/Desktop/
+ 1990  cd vmware-tools-distrib/
+ 1991  ls
+ 1992  sudo ./vmware-install.pl 
+ 1993  cd /mnt/hgfs/Desktop/
+ 1994  ls
+ 1995  cp /home/vagrant/Desktop/example .
+ 1996  ls
+ 1997  history 
+ 1998  ls
+ 1999  cd ../../
+ 2000  ls
+ 2001  cd rex/rex
+ 2002  ls
+ 2003  history |> a.txt
+ 2004  vi a.txt 
+ 2005  history > a.txt
