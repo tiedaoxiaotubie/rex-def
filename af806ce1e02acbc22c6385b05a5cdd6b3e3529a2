@@ -1,0 +1,2856 @@
+[33mcommit af806ce1e02acbc22c6385b05a5cdd6b3e3529a2[m
+Author: cyyFh <1076643190@qq.com>
+Date:   Thu Mar 15 20:01:40 2018 +0800
+
+    g
+
+[33mcommit d60b52caca47d2b2b83db8ec1bb208504430d12a[m
+Author: tyb0807 <sontuan.vu119@gmail.com>
+Date:   Mon Nov 20 17:56:06 2017 +0100
+
+    Re-fix API
+
+[33mcommit d8e3a6d52fa00a9d462a74d9875ec430943aa597[m
+Author: tyb0807 <sontuan.vu119@gmail.com>
+Date:   Fri Nov 17 16:47:02 2017 +0100
+
+    Fix API
+
+[33mcommit d473b59534bda8146e34a9608e7505c39a0b4242[m
+Author: Audrey Dutcher <audrey@rhelmot.io>
+Date:   Sun Nov 19 16:18:55 2017 -0800
+
+    trace_additions is in angr
+
+[33mcommit 9f0fb2f35bffc0028069dbc33b2794c4e926d4ae[m
+Author: Audrey Dutcher <audrey@rhelmot.io>
+Date:   Sun Nov 19 14:47:39 2017 -0800
+
+    Move trace_additions to angr proper
+
+[33mcommit a64250281c2df01332b946d09d51fa9fc554101c[m
+Author: SonTuanVu <sontuan.vu119@gmail.com>
+Date:   Mon Oct 9 19:18:05 2017 +0200
+
+    Rex now works with tracer otie
+
+[33mcommit dceea2a540145a6c5af4bbdc7093a0e98602d195[m
+Author: SonTuanVu <sontuan.vu119@gmail.com>
+Date:   Sun Oct 8 00:28:45 2017 +0200
+
+    Remove unnecessary imports
+
+[33mcommit af05ade65c46bf80c181cdb2fdc41f6c758af6ad[m
+Author: SonTuanVu <sontuan.vu119@gmail.com>
+Date:   Sat Oct 7 21:10:37 2017 +0200
+
+    Change Runner API
+
+[33mcommit 204a5d0dfcecc41e99051b892f52be0e1d56eed3[m
+Merge: d454dca d8aadae
+Author: salls <salls@users.noreply.github.com>
+Date:   Fri Oct 6 16:37:10 2017 -0700
+
+    Merge pull request #19 from tyb0807/master
+    
+    Fix bugs due to the_end_times
+
+[33mcommit d8aadae541fdfcdac09e91165ad652c3393b74d0[m
+Author: tyb0807 <sontuan.vu119@gmail.com>
+Date:   Sat Oct 7 01:30:36 2017 +0200
+
+    Fix some other bugs
+
+[33mcommit ba3d9b69a2731db6d6d14be30fee07a14a6a33e4[m
+Author: tyb0807 <sontuan.vu119@gmail.com>
+Date:   Fri Oct 6 16:06:27 2017 +0200
+
+    Follow convention
+
+[33mcommit da2e93e27d55fcc144d470970189e286a5a972d3[m
+Author: tyb0807 <sontuan.vu119@gmail.com>
+Date:   Fri Oct 6 16:03:32 2017 +0200
+
+    Fix some other bugs
+
+[33mcommit fadc41631a26865e13620dfba84d8a155af904b5[m
+Author: tyb0807 <sontuan.vu119@gmail.com>
+Date:   Thu Oct 5 17:45:40 2017 +0200
+
+    Fix bugs due to the_end_times
+
+[33mcommit d454dcaffca2942f33c9b389d8d32baad4b62b94[m
+Merge: e3c1303 be4cb17
+Author: Andrew Dutcher <andrew@andrewdutcher.com>
+Date:   Sat Aug 12 21:44:37 2017 -0700
+
+    Merge remote-tracking branch 'github/fix/new_eval_api'
+
+[33mcommit e3c13031f8d619477649b88fc2c66f235977221c[m
+Author: SonTuanVu <sontuan.vu119@gmail.com>
+Date:   Thu Aug 10 12:49:51 2017 +0200
+
+    Make pov_fuzzing always use angr
+
+[33mcommit a964f7cc3f8c4f1fded935d80f27f2f785ced766[m
+Author: SonTuanVu <sontuan.vu119@gmail.com>
+Date:   Thu Aug 10 11:17:18 2017 +0200
+
+    Fix test cases
+
+[33mcommit be4cb173e2081b393c1367936466b120d4a06f89[m
+Author: Lukas Dresel <lukas.dresel@cs.ucsb.edu>
+Date:   Wed Aug 9 23:37:33 2017 -0700
+
+    must have missed these
+
+[33mcommit 3be36d41efcdbad7c93bb523642b2d7728675ee4[m
+Author: Lukas Dresel <lukas.dresel@cs.ucsb.edu>
+Date:   Wed Aug 9 22:41:06 2017 -0700
+
+    adjustments for the new eval solver API
+
+[33mcommit b3cc6ab721e87542e9f982753cb059a5a037ce82[m
+Author: Andrew Dutcher <andrew@andrewdutcher.com>
+Date:   Mon Aug 7 12:16:47 2017 -0700
+
+    fix crash exploration
+
+[33mcommit 92f3397d6b6459adec2d393f66f1ae313e47dc18[m
+Author: Andrew Dutcher <andrew@andrewdutcher.com>
+Date:   Fri Aug 4 13:31:59 2017 -0700
+
+    Update for CLE
+
+[33mcommit 0d749bf74803050801756c44e81902fb6414b90a[m
+Author: Andrew Dutcher <andrew@andrewdutcher.com>
+Date:   Thu Jul 6 18:44:29 2017 -0700
+
+    Remove explicit python language
+
+[33mcommit 124e7d33c7706a940e4884d713d231b0305df1a1[m
+Author: Andrew Dutcher <andrew@andrewdutcher.com>
+Date:   Thu Jul 6 18:27:46 2017 -0700
+
+    Do as much as I can for rex
+
+[33mcommit e426c33ba38f2c122b668dcc45f7084d8601bd51[m
+Author: Yan <yans@yancomm.net>
+Date:   Mon Jun 12 22:26:14 2017 -0700
+
+    update rex to angr-simuvex merge changes
+
+[33mcommit c9634372b6e382977fd5067420085a962510b132[m
+Author: Yan <yans@yancomm.net>
+Date:   Sun May 21 20:08:44 2017 -0700
+
+    update travis image
+
+[33mcommit 5b746350fe6f87bf2af5cc00cf1ce5a459c3c8e0[m
+Merge: 2df5141 d924f24
+Author: Yan <yans@yancomm.net>
+Date:   Thu Apr 6 22:16:16 2017 -0700
+
+    Merge pull request #12 from dfraze/patch-1
+    
+    Update requirements.txt
+
+[33mcommit d924f2462c5d34cc192ab7cb70b6d606e533d8b9[m
+Author: Dustin Fraze <df@cromulence.co>
+Date:   Fri Apr 7 01:15:16 2017 -0400
+
+    Update requirements.txt
+    
+    Add additional requirements.
+
+[33mcommit 2df5141ba4dac878b55a52b79606bfda4bc4c1ba[m
+Merge: 762d395 aef70c5
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue Mar 14 19:46:23 2017 -0700
+
+    Merge branch 'Owlz-dont_be_lazy'
+
+[33mcommit aef70c597fa4c1279e0081808384f32e59a31389[m
+Author: Owlz <whootandahalf@gmail.com>
+Date:   Sun Mar 12 22:07:37 2017 -0400
+
+    Removing LAZY_SOLVES
+
+[33mcommit 762d39508067c70c82d2decf2fa5c0f38e25eaa6[m
+Author: Yan <yans@yancomm.net>
+Date:   Thu Mar 9 18:13:27 2017 -0800
+
+    and more paths
+
+[33mcommit 0895895b5c04884be37e9681d368b823b4038b26[m
+Author: Yan <yans@yancomm.net>
+Date:   Thu Mar 9 18:04:33 2017 -0800
+
+    update paths
+
+[33mcommit 66a71ab62d4a06b958db5b933b10dda60d220be6[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Jan 14 19:22:18 2017 -0800
+
+    fix binary path
+
+[33mcommit 6eca9b75db5c49c9cf8d9ec63a4e52b000a009ad[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Jan 14 18:47:30 2017 -0800
+
+    silence angrop during gadget finding
+
+[33mcommit 03b2d757541f262c1b7d42b39c1d6f2f792b40d6[m
+Author: Yan <yans@yancomm.net>
+Date:   Fri Jan 13 19:09:40 2017 -0800
+
+    small change to trigger ci
+
+[33mcommit 4c10a8d6c8f1fe5b510ec3b5fc9254efeafb915c[m
+Author: Yan <yans@yancomm.net>
+Date:   Fri Jan 13 19:07:45 2017 -0800
+
+    enable testing with travis
+
+[33mcommit ec49a388bef661ad1d29ab5dea8fb398bf20e936[m
+Merge: 31b4377 c1ecee5
+Author: Yan <yans@yancomm.net>
+Date:   Sun Dec 25 17:02:54 2016 -0800
+
+    Merge pull request #9 from shellphish/test/moar
+    
+    update paths to binaries
+
+[33mcommit c1ecee5f13afcb9a3662016737fca8a178ff275b[m
+Author: Yan <yans@yancomm.net>
+Date:   Fri Dec 23 18:17:28 2016 -0800
+
+    update paths to binaries
+
+[33mcommit 31b4377f3bd6551b94e3853ea95c75f395e35950[m
+Merge: e7ae232 f472d0b
+Author: Yan <yans@yancomm.net>
+Date:   Sat Aug 20 22:08:16 2016 -0700
+
+    Merge pull request #3 from Owlz/patch-1
+    
+    Readme update
+
+[33mcommit f472d0b4b4155e123e18b32dc46e71e2b5e2f6ce[m
+Author: Owlz <Owlz@users.noreply.github.com>
+Date:   Sun Aug 21 01:02:39 2016 -0400
+
+    Readme update
+    
+    Looks like you changed the call to plural at some point.
+
+[33mcommit e7ae2322b299face9a1209a4ce3f097a5f9522e1[m
+Author: Yan <yans@yancomm.net>
+Date:   Sat Aug 20 21:49:53 2016 -0700
+
+    add packages to setup.py
+
+[33mcommit 6cdf697cd36071d96802e2813f1718d2a4eba70d[m
+Author: Andrew Dutcher <andrew@andrewdutcher.com>
+Date:   Sat Aug 20 21:06:45 2016 -0700
+
+    Fix reqs
+
+[33mcommit 0137bea383b919e028156906d0aa41eba08dfe9f[m
+Author: Andrew Dutcher <andrew@andrewdutcher.com>
+Date:   Sat Aug 20 15:16:13 2016 -0700
+
+    Add standard BSD license
+
+[33mcommit e2521a4a663b7f41f20811ed38f5eed7ab77ecee[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Aug 20 00:46:13 2016 -0700
+
+    one last ref to remove
+
+[33mcommit 49d19cec839d0a7c3df139c6564eb7efcdfbbdd4[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Aug 20 00:45:05 2016 -0700
+
+    remove unused reference to derander
+
+[33mcommit 3690cdc6767cab9f8147e9b09bcfb6cf685804fd[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Aug 20 00:40:02 2016 -0700
+
+    a couple comments
+
+[33mcommit 47bc2fbbd583f3e48ae49cc1f3462ba33ee3e896[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Aug 20 00:28:57 2016 -0700
+
+    remove the unused game player to clean up repo slightly
+
+[33mcommit 99d5d09c881a810792d47354cf8a926a517f01d8[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Aug 9 17:12:55 2016 -0700
+
+    Update README
+
+[33mcommit 578d3309f7e7dea766c7fc41a70e0270e691b1a2[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Mon Aug 1 03:50:52 2016 -0700
+
+    catch unsat
+
+[33mcommit 69e9b75535f2712b79b69e0e029a89520d4a1e48[m
+Merge: e2a8183 694ba0c
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Mon Aug 1 00:57:33 2016 -0700
+
+    Merge branch 'feat/point_to_flag' into 'master'
+    
+    make point to flag search for flag copies
+    
+    
+    
+    See merge request !33
+
+[33mcommit 694ba0c5ad79c29ffe838b8a89763ed0e29391d1[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Mon Aug 1 00:38:23 2016 -0700
+
+    make point to flag search for flag copies
+
+[33mcommit e2a818371aee93e85e86e69fdb949e643b2d7f05[m
+Merge: 7c245d6 1ddb2a2
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Fri Jul 29 17:53:52 2016 -0700
+
+    Merge branch 'fix/0_len_BV' into 'master'
+    
+    handle zero-length strings
+    
+    
+    
+    See merge request !32
+
+[33mcommit 1ddb2a2c5b0fc9ab0d9b791f77e39ba78d80eed9[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Fri Jul 29 17:42:07 2016 -0700
+
+    handle zero-length strings
+
+[33mcommit 7c245d602e518f47348647668a018036618d7c7a[m
+Merge: 7c96d36 a41c224
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jul 27 23:00:24 2016 -0700
+
+    Merge branch 'fix/atoi_bug' into 'master'
+    
+    fix for when atoi is used not as challenge response
+    
+    
+    
+    See merge request !31
+
+[33mcommit a41c224857e866d9819377fba42850d695917458[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jul 27 22:38:27 2016 -0700
+
+    fix for when atoi is used not as challenge response
+
+[33mcommit 7c96d36b47ef1466e30a2dba48378f04a9167c0a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jul 27 16:18:46 2016 -0700
+
+    Fix rex reconstraining testcase
+
+[33mcommit 9e60a06957c17a24c2c443edbbcb2cb8d7ea539c[m
+Merge: 313529a 5b988b4
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue Jul 26 18:28:20 2016 -0700
+
+    Merge branch 'fix/memory' into 'master'
+    
+    simplify while adding the zen constraints to zen plugin, saves a ton of memory
+    
+    
+    
+    See merge request !30
+
+[33mcommit 5b988b48e02ad746b31c29e73432afcf3a6b7814[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue Jul 26 17:56:37 2016 -0700
+
+    simplify while adding the zen constraints to zen plugin, saves a ton of memory
+
+[33mcommit 313529ab3404480f13296c0272d65bc19aca69a1[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Mon Jul 25 03:50:44 2016 -0700
+
+    make sure to return if we didn't find it
+
+[33mcommit c4be0d9af7c1d88e60bb887fab5f2f348144cbe8[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Jul 25 00:23:15 2016 -0700
+
+    QuickTriaging now supports MultiCBs
+
+[33mcommit bbf1eead08172d1a6aab8a96c388050c86e7ebfd[m
+Merge: bb17d9f 3a912d7
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sun Jul 24 00:24:17 2016 -0700
+
+    Merge branch 'feat/better_atoi' into 'master'
+    
+    Feat/better atoi
+    
+    
+    
+    See merge request !29
+
+[33mcommit 3a912d71f52baea86518ce360d9624af8182a19e[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Jul 23 23:59:47 2016 -0700
+
+    add test case for KPRCA_00057
+
+[33mcommit 770a25da3111b94dec8e724bdc2af51a558d368b[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Jul 23 23:16:26 2016 -0700
+
+    handle negatives better in atoi stuff
+
+[33mcommit 2a3e962def622864d24abbfcfe733f87569c72ac[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Jul 23 19:53:55 2016 -0700
+
+    implement better atoi including dumping of inputs using atoi
+
+[33mcommit bb17d9f1e1ba73e586eaf8e20c4a8170b55b6e64[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Jul 22 15:32:20 2016 -0700
+
+    Update the test_reconstraining testcase now that the flag page has been changed
+
+[33mcommit 62539381105c59c8024544e7a182820b5ddfebcb[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Jul 22 05:08:13 2016 -0700
+
+    Fix challenge response testcase for new flag page
+
+[33mcommit 8a5811697e7ac9375fe2a3f5640fa9fc8a0a20f8[m
+Merge: b5220a0 cd22293
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Jul 21 23:11:08 2016 -0700
+
+    Merge branch 'fix/constrain-length-in-type2' into 'master'
+    
+    Properly constrain the length var in Type 2 exploits
+    
+    
+    
+    See merge request !28
+
+[33mcommit cd222931e733a50a2ac8bf878a864a64e5e3d0c1[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Jul 21 22:44:54 2016 -0700
+
+    Properly constrain the length var in Type 2 exploits
+
+[33mcommit b5220a0187b5a87c649d7adc0852eaf73894afcf[m
+Merge: f0d7add 652a79b
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Jul 21 19:09:11 2016 -0700
+
+    Merge branch 'fix/dont_remove_false' into 'master'
+    
+    don't remove constraints with no variables
+    
+    
+    
+    See merge request !27
+
+[33mcommit 652a79bbe53ce4c7bfc4e15ee6a829dd621e8dd8[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Jul 21 18:30:30 2016 -0700
+
+    don't remove constraints with no variables
+
+[33mcommit f0d7addd1ac04909e753123047411d049d9ddbb0[m
+Merge: d10949f 95e5765
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Jul 21 00:42:36 2016 -0700
+
+    Merge branch 'feat/rand_as_chall_resp' into 'master'
+    
+    add random for challenge response
+    
+    
+    
+    See merge request !26
+
+[33mcommit 95e576504bb5d4f8e9a295d646455334c9510171[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jul 20 02:07:00 2016 -0700
+
+    add random for challenge response
+
+[33mcommit d10949f096402e3454abc339d0ee0b695adccb70[m
+Merge: d928117 0dd5a3a
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Jul 17 22:03:53 2016 -0700
+
+    Merge branch 'feat/quick-crash' into 'master'
+    
+    No longer quick_triage, now QuickCrash
+    
+    
+    
+    See merge request !25
+
+[33mcommit 0dd5a3a3b198115a86e75b7b3a0ca3fbf17f1ec3[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Jul 17 05:20:40 2016 -0700
+
+    No longer quick_triage, now QuickCrash
+
+[33mcommit d9281177f248bb3c1a69a5b10816c11dd73b8ee0[m
+Merge: a64528f 562f6c2
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Jul 17 03:48:44 2016 -0700
+
+    Merge branch 'fix/use-tiny-core' into 'master'
+    
+    Fix/use tiny core
+    
+    
+    
+    See merge request !24
+
+[33mcommit 562f6c26173d8e2cf5c75b827a3f34a8cef59949[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Jul 17 03:27:54 2016 -0700
+
+    Circumstantial register setting now makes sure the register is tainted by user input
+
+[33mcommit 981341942a2263edc85d109d6ca8af2b94433380[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Jul 17 03:27:22 2016 -0700
+
+    Quick triaging now uses tiny core loading
+
+[33mcommit a64528fb5681dd34fdde9e271ebec97bd3348aaa[m
+Merge: f326de6 e5184dc
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Jul 17 01:00:42 2016 -0700
+
+    Merge branch 'feat/arbitrary-syscall-args' into 'master'
+    
+    Feat/arbitrary syscall args
+    
+    
+    
+    See merge request !23
+
+[33mcommit e5184dca9c4fdc711ec7a8942fdf94c163971951[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 16 23:31:13 2016 -0700
+
+    Apply reconstraints after pointing to the flag
+
+[33mcommit ca7eb38a9777528bd3613817a4dd1c976f3dada1[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 16 22:53:43 2016 -0700
+
+    Fix, position of state setting moved, need to account for self.prev not being set
+
+[33mcommit 4c03d13d186a54da50354fdd0bf79f4e70c16b4e[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 16 22:48:58 2016 -0700
+
+    Fix, remove reconstrained_flag we want to be able to reconstrain different states
+
+[33mcommit 3f30057533fbecaf1d6328dac4fb4f8bf8c1921b[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 16 22:42:31 2016 -0700
+
+    Allow exploitation of non-crashing inputs for arbitrary transmits
+
+[33mcommit 1876427950de17088cc6fb1d41795210773fe13f[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 16 19:31:56 2016 -0700
+
+    Add new leakable method
+
+[33mcommit cd353effd584d84260bde7ef46b00eb980fc94ba[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 16 19:07:10 2016 -0700
+
+    Arbitrary transmits and arbitrary receives are explorable
+
+[33mcommit e5e116753e96ddcab494120a0ceaeb09d3ec5fb4[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 16 18:23:34 2016 -0700
+
+    Integrate arbitrary transmit exploitation
+
+[33mcommit 9b0ec13c4f685e9b29c13f3c94c142bddf376026[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 16 04:55:41 2016 -0700
+
+    Add quick detection of arbitrary transmit and arbitrary receive
+
+[33mcommit f326de6aef42b43b40613dd25958d506f176c2ff[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 16 19:33:04 2016 -0700
+
+    Copy the reconstrained flag in copy()
+
+[33mcommit 301392c4cb44b85ec647b540c3dedcbc083235cb[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 16 05:48:08 2016 -0700
+
+    Fix, point-to-flag is constrained to the max address of the flag-page+0x1000-4
+
+[33mcommit a94c845309100def835729db8f0b79faa6006612[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 16 03:48:11 2016 -0700
+
+    Use replacement backend when reconstraining the flag (handiwork of Salls)
+
+[33mcommit 02874716355d26e8c49f6179d126841541447305[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 16 01:06:58 2016 -0700
+
+    Add testcase for reconstraining
+
+[33mcommit 6b7301d52ec1118c25d6ae90e6d6cfdf37296565[m
+Merge: 2566e39 0845edf
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 16 00:34:25 2016 -0700
+
+    Complete merge with arbitrary transmit handling code
+
+[33mcommit 2566e393e9d61170a035fd9c8cb568566101fc59[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 16 00:15:33 2016 -0700
+
+    Reconstrain the flag page and cgc-zen-data when using forge-ahead exploration techniques like point-to-flag
+
+[33mcommit 0845edf6f0e19273744e018708eb44cc49f2894e[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Fri Jul 15 23:14:50 2016 -0700
+
+    arbitrary transmit handling
+
+[33mcommit fce6f834ff7553bf78886d7c1e49ce563e6f6b58[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Jul 15 03:39:07 2016 -0700
+
+    Classify crashes which whatever comes first, arbitrary-read or write-x-where
+
+[33mcommit 1d88aa3d117e33baf1b930dd91b11e60067067da[m
+Merge: a9983fe f771d56
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Fri Jul 15 01:35:57 2016 -0700
+
+    Merge branch 'master' of git.seclab.cs.ucsb.edu:cgc/rex
+
+[33mcommit a9983feeda6095903e8fdab2fbce1cea6d30b9f6[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Fri Jul 15 01:35:56 2016 -0700
+
+    fix
+
+[33mcommit f771d563ec7423e54bd9ce1b9e37a90eee839593[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Jul 14 23:48:43 2016 -0700
+
+    Bump up depth in Zen to 13
+
+[33mcommit 96dfb3bf049ea501c6f7ebdec8a3bb7da7f21e10[m
+Merge: 8e181fc 1228f96
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Jul 14 00:22:39 2016 -0700
+
+    Merge branch 'master' of git.seclab.cs.ucsb.edu:cgc/rex
+
+[33mcommit 8e181fccb1df8500501f7f1b482f772ef6b2befb[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Jul 14 00:22:34 2016 -0700
+
+    Copy angrop object and pass it in exploration
+
+[33mcommit 1228f96088081fce5b93c0362c81abbee3da3cf3[m
+Merge: 4d829d4 fc8b3f6
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jul 13 23:58:18 2016 -0700
+
+    Merge branch 'master' of git.seclab.cs.ucsb.edu:cgc/rex
+
+[33mcommit 4d829d4350d6f2e67cc5e31885ee86a02180bcff[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jul 13 23:58:12 2016 -0700
+
+    fix zen order, to actually replace
+
+[33mcommit fc8b3f652cc44293cce34273b18f8e2e5b124084[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jul 13 23:32:00 2016 -0700
+
+    Update explore_for_exploit technique to classify some of its exploits using the 'exploration' method
+
+[33mcommit 406d3c659a375c86285e6fac04725601db14ef6f[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jul 13 23:24:56 2016 -0700
+
+    Fix, copy enough attribute in 'copy()' to explore a copied crash
+
+[33mcommit 9659c957be5c50799aaf46d7d3a54291f277eab0[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jul 13 21:06:20 2016 -0700
+
+    Hardcode a limit on the number of explore steps which are acceptable to take
+
+[33mcommit ac6ea8ebb5d8fc1e8599df0f807446690b6bf8d6[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jul 13 20:40:23 2016 -0700
+
+    fix runner logging
+
+[33mcommit 63f2238d36ba6b7ebfd612e674fc63fd12f834f1[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jul 13 20:36:00 2016 -0700
+
+    type2fuzzer fix
+
+[33mcommit dbd3c5bba40dba092792bbeb074ebae6a5a51149[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jul 13 04:20:39 2016 -0700
+
+    add option for rop or rop_cache
+
+[33mcommit 046e5f5d180004c4fd0138356ad641e5b0993f05[m
+Merge: c0e1d94 7a3fadd
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue Jul 12 18:40:26 2016 -0700
+
+    Merge branch 'enable_symbolic_explore' into 'master'
+    
+    enable symbolic explore
+    
+    
+    
+    See merge request !22
+
+[33mcommit 7a3fadd6ca8291bb6ccc7bc02fa012e3b7e242f7[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue Jul 12 18:31:59 2016 -0700
+
+    enable symbolic explore
+
+[33mcommit c0e1d9495a804e6bcc6bb5e07999cf44721b6396[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jul 12 18:01:14 2016 -0700
+
+    Add yield_exploits method
+
+[33mcommit e91c4f323f61c67b040be36cc0d58d8525d4ee5c[m
+Merge: fbf2050 d21376f
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue Jul 12 06:30:49 2016 -0700
+
+    Merge branch 'wip/zen' into 'master'
+    
+    add zen
+    
+    
+    
+    See merge request !21
+
+[33mcommit d21376fd0bb58ae09f32dea0521bd0ba28733a32[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue Jul 12 02:30:25 2016 -0700
+
+    add zen
+
+[33mcommit fbf205089feb482085537cf61edca17e31376d3c[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jul 12 04:49:32 2016 -0700
+
+    Test POVs one-at-a-time, 10 tries is too many
+
+[33mcommit 5a2fdc4e83efd92e41b86fd72788c44ae2d65999[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jul 12 04:48:44 2016 -0700
+
+    Fix optimized crash check on non-CGC binaries
+
+[33mcommit 34ab1062eebca4020c8018854e12ca527ff05926[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jul 12 04:24:07 2016 -0700
+
+    Update quick_triage testcase to ignore the return PC
+
+[33mcommit 7e91738a1cadaee2ec56b7111fba66121ff3c3c7[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jul 12 04:18:18 2016 -0700
+
+    Return the value of PC where the crash occured in quick_triage
+
+[33mcommit 7277caa81efde431db0e56125c20d07c789edc44[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jul 12 03:45:11 2016 -0700
+
+    Check if the input crashed with a concrete trace before hand
+
+[33mcommit 8b3a0d32d16bccc5adef2cd0cf2a2a23ef095693[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jul 12 02:47:55 2016 -0700
+
+    Add option to specify hooks
+
+[33mcommit ccd22b94b5c57e3833262b8a54258f7698e16f19[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Jul 11 23:41:25 2016 -0700
+
+    Use POV multitesting in the rex testcases
+
+[33mcommit fd2553b49f2275aa28aaa350acaaa3dcc7e39196[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Jul 11 23:30:28 2016 -0700
+
+    Allow times to be passed into test_binary to allow for multitesting of generated POVs
+
+[33mcommit a1d7a2ce8de631e7f18aab89bac508fbda3ea050[m
+Merge: aba1874 a9fe578
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sun Jul 10 23:13:57 2016 -0700
+
+    Merge branch 'wip/atoi' into 'master'
+    
+    Wip/atoi
+    
+    
+    
+    See merge request !20
+
+[33mcommit a9fe578236317bb9f633e96ef3565b8c9aa78356[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sun Jul 10 17:44:46 2016 -0700
+
+    test changes
+
+[33mcommit 41185fae1f18477caf30263da282b74d194b8e78[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Jul 9 22:55:55 2016 -0700
+
+    atoi stuff works!
+    
+    add test
+
+[33mcommit 99e9dcc872c59294d367eb7c7a4721bb00d2db6d[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Jul 9 03:28:36 2016 -0700
+
+    start of working atoi
+
+[33mcommit aba187459e0c7f4f3cd91bbdb43bc55bc1cc970e[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 9 20:50:12 2016 -0700
+
+    Add CROMU_00071 testcase
+
+[33mcommit 211a1af0dfc541ec034e64d87c1f880ab020c357[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Jul 8 02:47:05 2016 -0700
+
+    Set povsim logging to INFO in tests
+
+[33mcommit 96af2296888bc4297a0ec20b540f177a613979f6[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Jul 8 00:08:07 2016 -0700
+
+    Resurrect the derander
+
+[33mcommit 993e0a2abf9efe21ca4b61efd3b6fb85937ecdd5[m
+Merge: fe5e331 76b99ab
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Jul 7 18:10:51 2016 -0700
+
+    Merge branch 'wip/chall-resp' into 'master'
+    
+    small additions for colorguard and chall resp
+    
+    
+    
+    See merge request !19
+
+[33mcommit 76b99ab3b22e7ac415fee40487ff1afdcb4d71c3[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Jul 7 04:54:29 2016 -0700
+
+    small additions for colorguard and chall resp
+
+[33mcommit fe5e331508bff7bfc2c1625ae1a7c8328927ac36[m
+Merge: 5b58e28 a67a670
+Author: Andrew Dutcher <andrew@andrewdutcher.com>
+Date:   Thu Jul 7 01:38:25 2016 -0700
+
+    Merge branch 'master' of git.seclab.cs.ucsb.edu:cgc/rex
+
+[33mcommit 5b58e2899f67ededf662147af4ebc2f3cbcabaf9[m
+Author: Andrew Dutcher <andrew@andrewdutcher.com>
+Date:   Thu Jul 7 01:38:22 2016 -0700
+
+    [ci skip] new docker hierarchy
+
+[33mcommit a67a670e409708f683bc1e4e2b1485732d6ca7c1[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Jul 7 00:52:22 2016 -0700
+
+    Refactor arbitrary read and arbitrary write exploration code
+
+[33mcommit 35e6e8b72728ab2e11a78595e278a9829f2793e5[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jul 6 22:14:00 2016 -0700
+
+    import fix
+
+[33mcommit def4c26928628f68a85c60ce2fcb8c4786a30592[m
+Merge: 040a6c1 155ca45
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jul 6 22:13:31 2016 -0700
+
+    Merge branch 'feat/chall_resp2.0' into 'master'
+    
+    refactor challenge response
+    
+    improvements to chall resp
+    
+    See merge request !18
+
+[33mcommit 155ca457d211e64fddc934a4d6b84bceed13b76c[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jul 6 05:55:50 2016 -0700
+
+    refactor challenge response
+    
+    improvements to chall resp
+
+[33mcommit 040a6c1b18ee740a88b514ebfe8064201c38e51b[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jul 6 20:00:59 2016 -0700
+
+    A PC value less than 0x1000 is considered a NULL deref
+
+[33mcommit c76715982204e481b50567eff15659fddeacce5d[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jul 6 01:41:53 2016 -0700
+
+    Fix, pov fuzzers now properly import from povsim
+
+[33mcommit a40c664e424475e5b437de5ee9cb8bf043fdc460[m
+Merge: 7e8ff0e c76d49a
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jul 5 01:30:49 2016 -0700
+
+    Merge branch 'wip/chall_resp' into 'master'
+    
+    Wip/chall resp
+    
+    challenge response stuff working
+    
+    See merge request !17
+
+[33mcommit c76d49a6bc3ee0136a0d2810a6f1f5749b4cd22a[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue Jul 5 00:43:43 2016 -0700
+
+    update test
+
+[33mcommit 35ca1b9e7359e76516c8e1718688b32a1a4e3478[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue Jul 5 00:19:48 2016 -0700
+
+    add test
+
+[33mcommit 7c9d98d09b76195c1e24a198ef8e2ad34cbe3121[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue Jul 5 00:06:05 2016 -0700
+
+    clean up
+
+[33mcommit 5f210d79a7b7f216599fa8a7ecc8e02f106fd3b7[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Mon Jul 4 22:45:12 2016 -0700
+
+    fix for type2 length, not really sure about this
+    
+    remove unnececessary simplify
+
+[33mcommit 5a6df6edeebf953352126b36cab127368ecc8a61[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Fri Jul 1 02:58:24 2016 -0700
+
+    implement challenge response
+
+[33mcommit 7e8ff0e0300eedd77d3c28e52a65157019d7fc40[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Mon Jul 4 22:45:12 2016 -0700
+
+    fix for type2 length, not really sure about this
+    
+    Conflicts:
+    	rex/exploit/cgc/c_templates/c_template_type2.py
+
+[33mcommit 3138c94b0ce6470ffb7daf3a09854eaeb2aced0f[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Jul 4 20:29:12 2016 -0700
+
+    Rex now uses the povsim project to test its povs
+
+[33mcommit 7e23207f7820054efe914f634ea660cbe5ad549d[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 2 21:30:38 2016 -0700
+
+    Apply regmask and ipmask to both variable and value in type 1 C template
+
+[33mcommit b4a520a7b71f6e306925f2dd30c5a03a9c0166ce[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 2 21:15:30 2016 -0700
+
+    Determine register bitmasks for shellcode and rop exploits
+
+[33mcommit 20e41c230e9b5abf7e65e58ad38e58e8f1a249d6[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jul 2 20:22:27 2016 -0700
+
+    rop_set_register technique now only tries using the smallest chain
+
+[33mcommit c9007f05677dd4dcf1dd6fc38f173c874a3ddf83[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Jun 30 14:47:37 2016 -0700
+
+    fix for when the variable order is wrong
+
+[33mcommit 794bd7dc46e802ca8959688a0c8716b46323db2f[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Jun 30 00:45:56 2016 -0700
+
+    chall_response example
+
+[33mcommit 8ab4e84fb69838f0a610b05ef0cde07d3cfc966e[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jun 29 22:39:18 2016 -0700
+
+    remove unused function
+
+[33mcommit 9213cef89a923abe488f319e644c0c3f55e8a5eb[m
+Merge: 2284033 2cd91c4
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 29 15:33:07 2016 -0700
+
+    Merge branch 'wip/boolector' into 'master'
+    
+    Wip/boolector
+    
+    
+    
+    See merge request !16
+
+[33mcommit 2cd91c4c799e5db7012ee2faeb5b4ef956dc78cf[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jun 29 04:39:32 2016 -0700
+
+    fix a couple bugs when using rop. Needed to check for extra space after the last gadget for the next ip in rop set register. Use the new, more accurate, payload_bv when retrieving bytes from the rop chain memory
+
+[33mcommit dfec2880cecb6f563f6065c7eaa6dbe04b151542[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 29 01:01:45 2016 -0700
+
+    Attempt to add ROP constraints the new way
+
+[33mcommit 228403355827b16bb9c5ed3d56f8c71efd0c81e8[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jun 29 00:30:08 2016 -0700
+
+    pov fuzzing 2 fixes
+
+[33mcommit d864354beb33ae2bdf5abe3ae311be3f0d09d28a[m
+Merge: 4146245 8dc5dff
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue Jun 28 18:27:22 2016 -0700
+
+    Merge branch 'feat/type_2_fuzzer' into 'master'
+    
+    add type 2 fuzzing
+    
+    fix the randomness in pov_testing
+    added a timeout to pov_testing
+    
+    See merge request !15
+
+[33mcommit 8dc5dff2a9fce225336fe6f48328000916dd8bd8[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Fri Jun 24 17:00:07 2016 -0700
+
+    add type 2 fuzzing
+    fix the randomness in pov_testing
+    added a timeout to pov_testing
+
+[33mcommit 99ec06e1b472d9bc1210b33d3c9d4f3ed5f42be8[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 28 15:20:46 2016 -0700
+
+    Templates now produce C code which aligns the stack before executing POV functionality
+
+[33mcommit 90bee2928139f635ca61a016a41be9aeb9cef5e0[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 28 14:06:29 2016 -0700
+
+    Finish boolector integration
+
+[33mcommit 95e12ddfa645ac854805ffb27010d30c74798c63[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 28 14:00:53 2016 -0700
+
+    Update boolector solving testcase
+
+[33mcommit 1f1eb2dff7cd2bfaccb6d7ee26a9184a4ab4bc16[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 28 03:08:06 2016 -0700
+
+    Add hacking variable testing to call_shellcode subtechnique
+
+[33mcommit 14df5e3a00dedefd778f0bde63be9700558a144d[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 28 02:55:42 2016 -0700
+
+    Add boolector_solving testcase
+
+[33mcommit 76908eb8b75a27f9744b4a0ee4aa776257983b46[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 28 02:30:23 2016 -0700
+
+    Now solving Type1 circumstantial register settings with boolector
+
+[33mcommit ef57487b21da701e9dbf22885fd5ee5b00ce3067[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 28 02:29:11 2016 -0700
+
+    Try to catch any other variables which aren't stdin bytes or arg var bytes when preparing new declarations
+
+[33mcommit f4244d61212f275cef3609dc9e4b29e5913e32ce[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 28 02:27:51 2016 -0700
+
+    Increase the max length constraint on the length in the type2 C template
+
+[33mcommit 21c3e8bebeb9e106cbd998b05980fff4c2df011b[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Jun 27 04:30:40 2016 -0700
+
+    C templates die on an error returned by boolector_parse
+
+[33mcommit 29c485a48d343710e2d73d6178005263d82c13ab[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Jun 27 04:04:37 2016 -0700
+
+    Type1 and Type2 shellcode exploits are working with boolector
+
+[33mcommit 74bdd4cddf3ab8c290872d5c5a58dcd025eb760e[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Jun 27 01:56:33 2016 -0700
+
+    Shellcode Type1s working with boolector
+
+[33mcommit 4146245a792a200741fe2dbc889014ffa4d1ecea[m
+Merge: 95a5cce ff65ae5
+Author: Yan Shoshitaishvili <yans@yancomm.net>
+Date:   Sat Jun 25 03:10:26 2016 -0700
+
+    Merge branch 'wip/front-over' into 'master'
+    
+    handle nondeterministic constraint ordering when removing flag page data
+    
+    
+    
+    See merge request !13
+
+[33mcommit 95a5ccefc8a382d7905fce8799c9fb8245553dc1[m
+Merge: 3120956 a4e2801
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Fri Jun 24 15:10:43 2016 -0700
+
+    Merge branch 'wip/fix_pov_fuzzer' into 'master'
+    
+    fixes the following bugs: pov fuzzer didn't recognize conflicting registers, pov…
+    
+    … fuzzer didn't handle completely controlled bytes, c_templates now have a timeout read at the end
+    
+    See merge request !12
+
+[33mcommit a4e280196ae7d5695a6073905355fd5e51626dc6[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Fri Jun 24 01:07:48 2016 -0700
+
+    fixes the following bugs: pov fuzzer didn't recognize conflicting registers, pov fuzzer didn't handle completely controlled bytes, c_templates now have a timeout read at the end
+
+[33mcommit 3120956ecfe62b167e1082d9ffae6460a2fe325f[m
+Merge: 30236d4 362f9e4
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Jun 23 21:31:18 2016 -0700
+
+    Merge branch 'wip/derander_00005' into 'master'
+    
+    GamePlayer
+    
+    And the derander (game player type technique)
+    
+    See merge request !11
+
+[33mcommit ff65ae58e8b895f8d180d1012c17613256cb0a21[m
+Author: Yan <yans@yancomm.net>
+Date:   Thu Jun 23 01:36:46 2016 -0700
+
+    handle nondeterministic constraint ordering when removing flag page data
+
+[33mcommit 362f9e4f5eccc7f4d95e58553585432a68157022[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Jun 23 00:15:15 2016 -0700
+
+    fix
+
+[33mcommit 5edae65458fc63c07f838c139d269e02cfed47b5[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Jun 23 00:12:34 2016 -0700
+
+    remove pwntools
+
+[33mcommit 30236d41c83ce788b4d90b468a181a566e876366[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 22 23:20:44 2016 -0700
+
+    Fix, import CannotExploit from the correct file
+
+[33mcommit b5acae1b3c71d2efbf6a401beb93ca6ab01113ef[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 22 23:09:42 2016 -0700
+
+    Convert all Exceptions thrown in POV generation to CannotExploit exceptions for more resilience
+
+[33mcommit cd6c65eef2719c1940c6b218d26732d9640cec6e[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 22 22:41:21 2016 -0700
+
+    Remove useless header in test file
+
+[33mcommit 218e93e1a40164a72738d43563dd126c33d176a8[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 22 22:38:16 2016 -0700
+
+    More logging in cgc_exploit_factory
+
+[33mcommit 084452d56765a5b2191052311d17a6323922416e[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 22 22:37:57 2016 -0700
+
+    Rop leak memory technique is now more flexible with which states can be used circumstantially
+
+[33mcommit 088ad2aaa27315dddb40f440b64ac272f8c75ea9[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 22 22:33:01 2016 -0700
+
+    More hueristics to tell if a 'write' is arbitrary
+
+[33mcommit fda672aa9a7f5d251016e7c16cadbb827bebb90d[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 22 22:29:31 2016 -0700
+
+    CGC Type2 POV objects use the stdout file position to get leak index instead of running another trace
+
+[33mcommit 1f60949c0881ee9afcd60700ee87a16e0432125a[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jun 22 19:51:11 2016 -0700
+
+    raise cannotexploit
+
+[33mcommit fe819738561d9b62ed4f468a7258e81f218f64df[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Jun 22 18:19:25 2016 -0700
+
+    game player works
+    
+    manual test for eagle 5
+
+[33mcommit d580d96ddbf00a3b6a13b5161ae1e16590d2b14c[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Jun 16 19:15:51 2016 -0700
+
+    start of derander work
+
+[33mcommit 4ec3cd187145f07b3df3889171b5d76db738d4a6[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Jun 16 23:42:55 2016 -0700
+
+    loop to ensure we crash the binary
+
+[33mcommit ee3b839ed9088f951e8c826cf3c86e42772ddd15[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 22 18:54:27 2016 -0700
+
+    POV objects generated by rex accept the the enable_randomness keyword during binary testing
+
+[33mcommit e82d9e1777d8a22488de1f0ff6f6f903abf864cf[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 22 18:33:47 2016 -0700
+
+    Fix remove ipdb and do more robust testing of POVs
+
+[33mcommit 6047a82fb3ce261e3ec262f5299f45404e54ce1a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 22 18:31:15 2016 -0700
+
+    Fix, registers are initialized from the corefile when analyze reads and writes
+
+[33mcommit 9fc4fdd06cf72e7ba1ebaf8a067950e9af7fac01[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 22 18:10:23 2016 -0700
+
+    More vulnerability classifiers for quick_triage
+
+[33mcommit 12c570e93cd08af7829b04527bf8ff313cd902f5[m
+Merge: 9fccfad accacb9
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 22 00:20:30 2016 -0700
+
+    Merge branch 'wip/nop-sleds' into 'master'
+    
+    Wip/nop sleds
+    
+    
+    
+    See merge request !10
+
+[33mcommit accacb9afe5ed14559945e987d151eb67d586109[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 22 00:04:56 2016 -0700
+
+    Add NOP sled constraints when generating the Type2 shellcode POV
+
+[33mcommit 9fccfada767d178d9fe039abb2faf019c020b5f0[m
+Merge: 9918d01 00f2b67
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jun 22 00:00:01 2016 -0700
+
+    Merge branch 'feat/one-exploit-per-technique' into 'master'
+    
+    Feat/one exploit per technique
+    
+    
+    
+    See merge request !9
+
+[33mcommit 00f2b67eb0b4982407686ff36112c1d0d121f6ca[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 21 23:41:15 2016 -0700
+
+    Modify explore for exploit technique to just return a single exploit opposed to a list
+
+[33mcommit 571ee7086e567eda6c718fddfff2907442151714[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 21 23:24:56 2016 -0700
+
+    Generate one exploit per technique
+
+[33mcommit 9918d016ac1197d53c3b56a82e0a99bd1b823b25[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 21 22:07:14 2016 -0700
+
+    Remove the corefile after values are extracted when testing the Type 1 POVs
+
+[33mcommit cfcafcf6ff6dbb046e5f9501b6029d1b77da3e1a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 21 21:42:48 2016 -0700
+
+    Add basic NOP sled support
+
+[33mcommit 5f05b4abc10e5b0244da3c1652cce39d310ba28b[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 21 15:30:09 2016 -0700
+
+    Controlled printf test is now done ten times and looks for a single success
+
+[33mcommit e3f4eb108ae67cccf08115f25968e0b8b288b8a1[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 21 15:20:24 2016 -0700
+
+    Remove controlled printf testcase temporarily
+
+[33mcommit 694b16a6b350ed3757c76e8176d46ef3a814ae66[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 21 15:00:09 2016 -0700
+
+    Remove somewhat redundant testcase
+
+[33mcommit 269b25bc069840acc4dafbba3337a0773249d520[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 21 03:34:32 2016 -0700
+
+    Add printf vulnerability testcase
+
+[33mcommit c23f7e8acba9bb677a2a36742f74732017f4f077[m
+Merge: 270e66c 17863c2
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 21 02:54:20 2016 -0700
+
+    Merge branch 'master' of git.seclab.cs.ucsb.edu:cgc/rex
+
+[33mcommit 270e66c29fece9169cdad253f709388772574c52[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 21 02:54:15 2016 -0700
+
+    Test binary POV in point_to_flag testcase
+
+[33mcommit 17863c22760edd307b1464c0f9fc760077990b23[m
+Merge: ca781f2 a2ca9ea
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Mon Jun 20 21:40:00 2016 -0700
+
+    Merge branch 'wip/salls_explore' into 'master'
+    
+    Wip/salls explore
+    
+    
+    
+    See merge request !8
+
+[33mcommit a2ca9ea2845fe521ac2527ac5dc49d0a9da90d9d[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Mon Jun 20 21:08:22 2016 -0700
+
+    generates_pov
+
+[33mcommit 3011c12d5421794c8c5c7057b9c3eed1b6fbc300[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Mon Jun 20 20:54:38 2016 -0700
+
+    unicorn
+
+[33mcommit ed0972f5fb33efa650d26fa9c6b5dd8b693ea751[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Mon Jun 20 20:23:33 2016 -0700
+
+    add a blacklist
+
+[33mcommit eae95b3fc010c89dffdde1956b8592f3d1fe24ef[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sun Jun 19 23:32:08 2016 -0700
+
+    more fixes
+
+[33mcommit e3d1dd1b2faed1401f50296a09f84e095bf759c9[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sun Jun 19 18:19:18 2016 -0700
+
+    start of a lot of changes
+
+[33mcommit 0b9d7813e1dfab239942c581e59b230320cfd1e3[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Jun 18 14:56:48 2016 -0700
+
+    fixes
+
+[33mcommit f36f65d224f5f1686cececd14c75132ccf85cec6[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Mon May 9 15:59:22 2016 -0700
+
+    clean up test
+
+[33mcommit a47e0b86c7e785a6206474434b07673fade398b8[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Mon May 9 15:43:20 2016 -0700
+
+    remove print
+
+[33mcommit 22140935997bc7f9aa685467ff9f14c8d2c3685b[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue May 3 14:56:59 2016 -0700
+
+    initial version of crash exploration, hacky, still lots to do
+
+[33mcommit ca781f2a72c3bf545e14f0766c0f652feb5e30ef[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Jun 20 20:01:33 2016 -0700
+
+    Add point_to_flag method for generating new potential leak tests
+
+[33mcommit afd3b99fde11f65b8cc8e99ec6f9e4f61c3d0ecb[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Jun 19 01:15:34 2016 -0700
+
+    Techniques now have a 'generates_pov'
+
+[33mcommit 98afeb90dd7b5ff090a694760d21e7f035e035ae[m
+Merge: 6c4886f 5e86c55
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Jun 18 17:24:19 2016 -0700
+
+    Merge branch 'feat/faster_rex_tracing' into 'master'
+    
+    rex tracing speed improvements
+    
+    ability to pass a crash_state and path to a Crash object to avoid needing to trace
+    
+    Conflicts:
+    	rex/crash.py
+    
+    See merge request !7
+
+[33mcommit 5e86c558d0ba1cc33bbf53d1a9cebb92732aca3f[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Jun 18 16:11:28 2016 -0700
+
+    rex tracing speed improvements
+    
+    ability to pass a crash_state and path to a Crash object to avoid needing to trace
+    
+    Conflicts:
+    	rex/crash.py
+
+[33mcommit 6c4886f58a596482132a5338ae90de66c196a3fc[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sat Jun 18 16:13:31 2016 -0700
+
+    update manual type1 pov fuzzer test
+
+[33mcommit dc5e8059bba46b861a9e965fbd8a92fa114c45fd[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jun 18 15:02:25 2016 -0700
+
+    Add method_name attribute to all exploits
+
+[33mcommit c5b1ec1bf61462709c194e2c33b0793b55c8937e[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jun 18 00:19:46 2016 -0700
+
+    Add testcase for NULL dereference quick triaging
+
+[33mcommit 4f2d261257da227f6f4a31eaf5f7d68f22d39fca[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jun 18 00:11:23 2016 -0700
+
+    quick_triage can now classify a crash as a null dereference
+
+[33mcommit 38f6cca77a0543c19754f597de3ef82cdc6ed158[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Jun 17 19:25:50 2016 -0700
+
+    Add more logging to CGC POV Type 2 testing
+
+[33mcommit 227cdde636ac2518f43366e59321b7c6cff5ee18[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Jun 14 16:45:48 2016 -0700
+
+    quick_triage returns 'unknown' if the crash is not categorizable
+
+[33mcommit f6676840183f1c36b23af08cf61a3e1cc96f6bd5[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jun 4 16:09:55 2016 -0700
+
+    Test colorguard on rex pushes
+
+[33mcommit b8acd37654612e4ce106c59f6ce5761035040904[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jun 4 16:09:43 2016 -0700
+
+    Export NonCrashingInput exception
+
+[33mcommit 890d1a3b9d8ef7b17f2a47abcd8e85c19078e8d1[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun May 29 21:24:34 2016 -0700
+
+    POVs dumped by a CGC exploit are automatically marked executable
+
+[33mcommit 88dfea454b80c86e22c6d75cdf10b1f41355eb5a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun May 29 19:47:51 2016 -0700
+
+    Sanity check POV permissions and CB permissions before testing. Removing files is the responsibility of the CGCPOVTester caller
+
+[33mcommit 459ae5088e6744625895495edeed5dec17e9c520[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun May 29 17:34:06 2016 -0700
+
+    Make register setting technique more resilient to exceptions
+
+[33mcommit ebbb61f731ef11adda775cc70131e7bc3301e2c8[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun May 29 00:02:11 2016 -0700
+
+    Attempt to classify partial_ip_overwrites in quick_triage
+
+[33mcommit 006599a1bfbcb7c3a4abc3e472f58007ab3dd90d[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat May 28 16:52:46 2016 -0700
+
+    Add testcase for quick_triage
+
+[33mcommit 1c6b4248c2b1ab13c06104713ad415194c34b209[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat May 28 16:24:53 2016 -0700
+
+    Add debug logging to quick_triage
+
+[33mcommit eb8d4d486c9e602ab2726d5f4c7b3443ae300664[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat May 28 16:08:06 2016 -0700
+
+    Two updates for CGC exploit base class:
+    
+        * Ensure that generated binary files are executable
+        * If a pov was requested to be dumped to a file, don't return the raw binary
+
+[33mcommit 9a08d27d82b57e7449fcfa7172f5d21defbf5f6a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat May 28 16:07:05 2016 -0700
+
+    Add the quick_triage method
+
+[33mcommit b97bad9bcd1e5cfd14777eee15dd99c0f13d6cb7[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu May 26 22:19:53 2016 -0700
+
+    One more fix pushed to the test_rex.py script
+
+[33mcommit d77194a71b3c652e0d2c2d93562fd22dc687e30b[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu May 26 20:52:59 2016 -0700
+
+    Disable random rex test :(
+
+[33mcommit 0a5bd12c42a67afb692260b8c18a2298343ab054[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu May 26 18:57:41 2016 -0700
+
+    Temporary fix for rest test_binary()
+
+[33mcommit d78cd3685f1d9d58fda2480688b26ddfe22aa5a6[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu May 26 14:10:33 2016 -0700
+
+    Fix some typos in README
+
+[33mcommit 5905f29c59557d485df16629951e68aa5c449424[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed May 25 23:34:38 2016 -0700
+
+    Update README
+
+[33mcommit 4cc95d6e18f9e57b461dfd49f3ebc9b19bb49a81[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed May 25 21:32:14 2016 -0700
+
+    Temporary fix for legit_00001 test_binary() method failing
+
+[33mcommit f38b8b5b69df7a32c45855347ed37d6dfe23791a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue May 24 20:02:22 2016 -0700
+
+    Add two new testcases for testing legit_00001 and legit_00003
+
+[33mcommit a4f00c0b1ebd7e446a630d92fbebbb40882bec80[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue May 24 20:01:49 2016 -0700
+
+    Fix 'ebx' setting shellcode, it now use 'eax' as the jump destination register
+
+[33mcommit e1888ec9223a08f5be560758a04e279816b999b5[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue May 24 17:26:56 2016 -0700
+
+    Remove .test() method, should now use only .test_binary()
+
+[33mcommit d62a5c42dfcbce0017c649c0f92e8e95604ee82d[m
+Merge: 6189ebf b6a336b
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon May 23 20:43:28 2016 -0700
+
+    Merge branch 'master' of git.seclab.cs.ucsb.edu:cgc/rex
+
+[33mcommit 6189ebf1bff63cc056d81f651456f2701f72c2c1[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon May 23 20:43:21 2016 -0700
+
+    Add simple exploration of write-x vulnerabilities
+
+[33mcommit b6a336b29ab619af7eb55242b70a842060c68185[m
+Author: Francesco Disperati <francesco@cs.ucsb.edu>
+Date:   Mon May 23 18:31:12 2016 -0700
+
+    Build angr and worker images on push
+
+[33mcommit 4e6ee67960508c4cdc806b90eb3ac5ff64d11237[m
+Merge: 9bd0ac9 8f617f2
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue May 17 18:31:13 2016 -0700
+
+    Merge branch 'fix/enable_randomness' into 'master'
+    
+    enable randomness in pov tester
+    
+    
+    
+    See merge request !6
+
+[33mcommit 8f617f2268174d49e600d409e8b0be8c837f0264[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue May 17 18:08:40 2016 -0700
+
+    enable randomness in pov tester
+
+[33mcommit 9bd0ac970b5cee607d3dffdd363493fb6cc5c0b2[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Tue May 17 17:24:51 2016 -0700
+
+    make it faster
+
+[33mcommit 8ca26413c52a230e3082e08918c26a12be6f1dff[m
+Merge: 73d83b8 2444f80
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Sun May 15 16:38:58 2016 -0700
+
+    Merge branch 'improve/type1_fuzzer' into 'master'
+    
+    Improve/type1 fuzzer
+    
+    
+    
+    See merge request !5
+
+[33mcommit 2444f805ca7b062f66ca50e7c73fa0d33c7efe36[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Fri May 13 21:15:57 2016 -0700
+
+    lots of improvements to type1 fuzzer
+
+[33mcommit 0edaafb5c0a3b636fc70961ff2632954ee91b3cc[m
+Merge: 64e5832 73d83b8
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Fri May 13 21:14:19 2016 -0700
+
+    merge
+
+[33mcommit 64e583278da43838b6c9b8a648e04c01e4ee4f19[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Fri May 13 21:13:31 2016 -0700
+
+    change asserts to log error and return False
+
+[33mcommit 73d83b885736693f486a0215b4185508b31350ad[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Apr 30 19:53:33 2016 -0700
+
+    Some miscellaneous fixes for the Pov tester
+
+[33mcommit 0c42b37efa2b63f01b6a3f483d4dab06518d9c4a[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Mon Apr 11 20:01:21 2016 -0700
+
+    add overflow_after_rand example
+
+[33mcommit e9286c0e21437eed2f1fb63cdeb3c80c35acb81b[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Mon Apr 11 16:54:16 2016 -0700
+
+    add write what were example binary
+
+[33mcommit 18f8c4af46cebd2d368f544a34251f4cb97dd529[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Apr 6 19:11:01 2016 -0700
+
+    comments
+
+[33mcommit f4f7a1c5a19bd698f4fc76f4883a75fb5388a1fc[m
+Merge: 8991746 67dee94
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Apr 6 18:35:55 2016 -0700
+
+    Merge branch 'add_type1_fuzz' into 'master'
+    
+    Add type1 fuzz
+    
+    This merge also exports the pov_tester. Maybe they should be separate merge requests, but I'm lazy
+    
+    See merge request !4
+
+[33mcommit 67dee9431c7c0821f3ef111b2591e7f9e81d6424[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Apr 6 14:14:22 2016 -0700
+
+    check the correct bits when checking that it crashed
+
+[33mcommit bbe150e0315c08143689f2f042ef80368c338cfb[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Mar 31 20:41:34 2016 -0700
+
+    Add more debug logging to type1 negotiation tester code
+
+[33mcommit 8cf1d6f08d010850e6589a45301723be543e120a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Mar 31 20:36:22 2016 -0700
+
+    Remove -strace option when executing the challenge binary and remove the pid variable
+
+[33mcommit 2febde8cd883ff6cbd1b33f7a2529d3ddfd6aef4[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Mar 31 19:31:46 2016 -0700
+
+    Close pipe file descriptors in children and host to allow the challenge process to properly terminate
+
+[33mcommit 08a2592879a09298104fd8325aa6c61c1957ef4c[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Mar 31 15:36:56 2016 -0700
+
+    add type1 fuzzer
+
+[33mcommit 986a2e841983f2b214f3c7d3f916b7e9e8648914[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Mar 30 21:47:03 2016 -0700
+
+    export the pov testing to its own file
+
+[33mcommit 89917468f060835658cdb979f61a984b2238e27c[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Mar 25 11:14:24 2016 -0700
+
+    Add testing for Type 2 binary PoVs
+
+[33mcommit 8337baecbe31b9a755c8862f09c6ffb9eb8e9399[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Mar 25 09:04:48 2016 -0700
+
+    Check PoV type before doing anything in cgc_type1_exploit
+
+[33mcommit 563485745303f613c5dc5a55a75a1082d71e7259[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Mar 25 09:03:56 2016 -0700
+
+    PEP8 up cgc_type1_exploit
+
+[33mcommit f1cd0b6964abe1bdeeccc6a95b0e3e03dc916cb3[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Mar 25 08:53:13 2016 -0700
+
+    PEP8 up cgc_type2_exploit
+
+[33mcommit 3b9ffa40006e30ee98e4cefec8520539ed871594[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Mar 25 08:45:15 2016 -0700
+
+    PEP8 up cgc_exploit
+
+[33mcommit 1b816e428381ba8d1ed9615ff6c145e52132239a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Mar 24 22:11:16 2016 -0700
+
+    Add testing for Type 1 binary PoVs
+
+[33mcommit 91bb84786c22b9668632609570636297e152a14d[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Mar 23 12:28:29 2016 -0700
+
+    add path encoding example binary
+
+[33mcommit 3de19d81d7d106cfbf3ce7f2e19459cf5f0aa441[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Mar 10 16:47:43 2016 -0800
+
+    increase resiliency to constraint solver being nondeterministic
+
+[33mcommit b41bf83fe41f89c5e444e1a1e0b3ecc9ffb517c4[m
+Merge: 2b6e5f2 f7b8e5c
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Mar 10 15:49:03 2016 -0800
+
+    Merge branch 'master' of git.seclab.cs.ucsb.edu:cgc/rex
+
+[33mcommit 2b6e5f21d0223ede130b98b0e81e1bd7260252ef[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Mar 10 15:48:53 2016 -0800
+
+    update register mask computation, and fix c_templates
+
+[33mcommit f7b8e5cd4bc4e9ab41129880e1dc03952da82364[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Mar 10 14:16:52 2016 -0800
+
+    Remove item from TODO
+
+[33mcommit e16ea902128e79cd0d342503f109385d84f829ec[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Mar 9 18:57:06 2016 -0800
+
+    c_templates
+
+[33mcommit f596e6eafaa20d72b7b106f04dace15c501c3aad[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Mar 9 18:48:12 2016 -0800
+
+    try adding compilerex as a dependency
+
+[33mcommit 1b3b06b06860d44d25995e4580395271152f478f[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Mar 9 18:08:26 2016 -0800
+
+    fix tests
+
+[33mcommit abbee98d52c469733d002d50cc88d20c78ea0f4c[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Mar 9 16:51:52 2016 -0800
+
+    minor bit check improvements
+
+[33mcommit 0041cd4c23e80b29055f9c6f403d921e1e36e770[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Mar 9 03:03:07 2016 -0800
+
+    add todo
+
+[33mcommit 09f0841f739b6b8317f5e24010a1d7829926f85b[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Mar 9 02:59:58 2016 -0800
+
+    add dump c code
+
+[33mcommit d86607b29c3df0927ff5210300f1712985781f9b[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Wed Mar 9 02:57:12 2016 -0800
+
+    make imports relative
+
+[33mcommit fa5821860016e67070219da37624a55aad773217[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Mar 7 15:16:07 2016 -0800
+
+    Add has_type1 and has_type2 to the CGC exploit factory object
+
+[33mcommit 0d7df5d407001e58aa2543908e9a1fe593694559[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Mar 3 18:11:02 2016 -0800
+
+    Update both test methods to use the basename of the target binary, update testcase to called test with leakers
+
+[33mcommit aaf1bf3350da8dc981970f3d4b5505e2cab5f732[m
+Author: Chris Salls <salls@cs.ucsb.edu>
+Date:   Thu Mar 3 16:30:40 2016 -0800
+
+    fix indent
+
+[33mcommit b656a2d5282f104d15bd59d34fba857a32d29aad[m
+Merge: fd9f8f8 de7e533
+Author: Yan Shoshitaishvili <yans@yancomm.net>
+Date:   Thu Mar 3 15:22:03 2016 -0800
+
+    Merge branch 'wip/pathhistory' into 'master'
+    
+    Store additional action information inside crash to work with the now immutable action list
+    
+    
+    
+    See merge request !2
+
+[33mcommit de7e533b89c28cd5a5ca1a806a9c4b8cc5b7a6ac[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Feb 7 18:38:20 2016 -0800
+
+    Store additional action information inside crash to work with the now immutable action list
+
+[33mcommit fd9f8f8c831c3a3980e4723ddca1a26acd3c8b76[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Mar 3 14:32:46 2016 -0800
+
+    Add test method to CGC type2 exploits
+
+[33mcommit b3b17597e242367522ad940d16de37fb9c6578ea[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Mar 2 21:33:50 2016 -0800
+
+    Now invoke the exploit tester in the rex testcase
+
+[33mcommit d018a091af3c754db8795740e5ac01ebb9e16190[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Mar 2 21:20:41 2016 -0800
+
+    Move current implementation of test method to CGCType1Exploit object, it's more appropriate there
+
+[33mcommit 0af9f522cd172b5bfb7b7b521280f5f995effce4[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Mar 2 21:06:18 2016 -0800
+
+    Add exploit testing for CGC Type1 exploits
+
+[33mcommit 7c2b5020f4544d477cd4086527d246ba0c1f4de5[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Mar 2 19:21:21 2016 -0800
+
+    Now CGCExploit subclass of Exploit, which CGCType1 and CGCType2 exploit objects inherit from
+
+[33mcommit 584b7151976f8de428a2b6a9ec67662acbd64ec5[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Mar 2 19:19:45 2016 -0800
+
+    Add gitignore
+
+[33mcommit 5a7791ad7f6ac6fa7d3009583d41e0fe720bd953[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Mar 1 21:08:23 2016 -0800
+
+    Use hashlib instead of deprecated md5
+
+[33mcommit 650d0f54c8d8e4a1948b7e09147518cb3b83a95b[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Mar 1 14:31:15 2016 -0800
+
+    Rop cache is now stored in a file named after both the binary name and hash of the file's contents
+
+[33mcommit e02a864933255d6a922003ebebe8553c3945d419[m
+Merge: e73953b 9002ab6
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Feb 28 20:05:46 2016 -0800
+
+    Merge branch 'wip/pov-dumping' into 'master'
+    
+    Add pov method to exploit object, allowing to dump a POV of exploits, some caveats still
+    
+    
+    
+    See merge request !1
+
+[33mcommit 9002ab62a6a6b9eb0c6c099dc2f58a214341531f[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Feb 28 15:41:03 2016 -0800
+
+    Add pov method to exploit object, allowing to dump a POV of exploits, some caveats still
+
+[33mcommit e73953bad1cf86380d8c0147319c9d4aef92e404[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Feb 6 20:43:37 2016 -0800
+
+    Add testcase for shellcode placement
+
+[33mcommit 186788f55d8b152fe58c2447a3d544f05617f55c[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Feb 6 20:43:25 2016 -0800
+
+    More special cases in shellcode placement
+
+[33mcommit 029e3a7927d95c544bdf6dc1eb7bb59337ff0e5b[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Feb 6 16:43:18 2016 -0800
+
+    Update comment for test_cpp_vptr_smash
+
+[33mcommit 8be468e8db8c6a0a3efeac04ce714e66df3192b3[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jan 27 17:11:29 2016 -0800
+
+    Update TODO once more
+
+[33mcommit 2e355305d4d488a3bd21c6674b28cd029d138fc3[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Jan 27 17:05:17 2016 -0800
+
+    Update TODO with more ambitions
+
+[33mcommit 32f4e423e04314cf1f201b16218f6d0c45e98b6d[m
+Author: Giovanni Vigna <vigna@cs.ucsb.edu>
+Date:   Sun Jan 24 10:42:57 2016 -0800
+
+    Updated README.md
+
+[33mcommit deab7ff8551a24083488e0c09c9cc0014abd6f54[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jan 23 19:16:03 2016 -0800
+
+    Add cgc_type attribute to both CGC Type 1 and Type 2 exploit objects
+
+[33mcommit e538ff2cff69dfbc968b49f72df2b562b99ff57a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Jan 23 18:10:51 2016 -0800
+
+    Update circumstantial register setter's technique log banner
+
+[33mcommit b4d6f1143d116a7eeacfb6736afa34139276b368[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Jan 21 17:28:44 2016 -0800
+
+    Fix script generation by enabling TRACK_ACTION_HISTORY again
+
+[33mcommit 5883a31a551cf122ac8b27049d67319d516c6dbf[m
+Author: Francesco Disperati <francesco@cs.ucsb.edu>
+Date:   Mon Jan 18 19:12:53 2016 -0800
+
+    Update binaries path with private repo
+
+[33mcommit 9934503843263ddb1cc5a25446ddeb4c662a9955[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Jan 18 17:36:58 2016 -0800
+
+    Thoroghly test exploits generated for the cpp vptr smash
+
+[33mcommit 9f1736b9733c4e4d22ebd79803ee6aaf4aa446b1[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Jan 18 17:08:33 2016 -0800
+
+    Improve VPTR smash to test exploitable method and symbolic PC
+
+[33mcommit 0153f9ba20ea0a69fccdae479316f4376463e007[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Jan 18 17:07:47 2016 -0800
+
+    Extra check in circumstantial register setting techinique which verifies that the register trying to be set circumstantially doesn't conflict with the program counter
+
+[33mcommit 871c5cee6e24c50eefea7aa5c3609d68fa0fd80a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Jan 17 20:21:20 2016 -0800
+
+    Now able to explore crashes of type 'arbitrary-read'
+
+[33mcommit debe15a521cc29462c9ac67ed4d77f1a8133a7fe[m
+Author: Francesco Disperati <francesco@cs.ucsb.edu>
+Date:   Fri Jan 15 18:17:24 2016 -0800
+
+    Move public binaries to separate repo
+
+[33mcommit f247b875e35e5367666f1ec6b15be09825ad7f22[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Jan 14 17:53:09 2016 -0800
+
+    Add 'explorable' method
+
+[33mcommit 06bbb1600cb13e893525b7f9698aeba2d5d0d8fe[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Jan 14 16:43:04 2016 -0800
+
+    Add exploitability test to VPTR smash test
+
+[33mcommit 28f7a7b68d065691a936270cc4dee036ed909b37[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Jan 14 16:37:19 2016 -0800
+
+    Update the exploitable method to exclude 'arbitrary-read' vulnerability from being reported as exploitable
+
+[33mcommit 1f14605366f6993cc36e800a94102976c2f1392c[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Jan 14 16:04:28 2016 -0800
+
+    Add test for vulnerability type detection of arbitrary-read with a vptr smash binary
+
+[33mcommit 404598c904f16929687c90c66fe77b7a1923e0e0[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Jan 14 15:36:02 2016 -0800
+
+    Add detection for new vulnerabiltiy type 'Arbitrary-Read'
+
+[33mcommit 198f47bf8d499bb27161140c5640e3a9015216aa[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Nov 20 17:37:21 2015 -0800
+
+    Stop generating reports for CGC exploitation attempts
+
+[33mcommit 59a04734914280240980aed2eb6552ccc398f16a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Nov 20 17:36:56 2015 -0800
+
+    Update usage of _ip_overwrite_with_chain in Linux rop_to_system technique
+
+[33mcommit 81c3874da0bf829718a21368a4363e185d3c5367[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Nov 11 18:47:41 2015 -0800
+
+    Apply memory constraints to rop chains before generation, allowing us to avoid generating chains with illegal character
+
+[33mcommit 0cc6a42e810cdbf35f9b29ebc7d7aff362e459be[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Nov 11 00:31:03 2015 -0800
+
+    Can now create Type2 exploits with shellcode
+
+[33mcommit 58032442f96726cd5a40b53df856300cbc745932[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Nov 10 22:27:54 2015 -0800
+
+    Test each bit of register control circumstantially and update TODO
+
+[33mcommit 67149f67081850e6cfbd90ac74e271849d14090a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Nov 9 17:42:34 2015 -0800
+
+    Add message to CannotExploit exception in Crash.exploit()
+
+[33mcommit 88ba46eedc652b6e17c203d35624ed8227f7b78b[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Nov 9 03:21:25 2015 -0800
+
+    Now generate a stat report after successful exploitation
+
+[33mcommit bf0666865d8671473a3d331cd8d4a3850cda1cb6[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Nov 9 01:57:23 2015 -0800
+
+    Rex Crash constructor accepts CGC PoV files
+
+[33mcommit bb9f830554806b3295e69cddc2d3f868c03a73d0[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Nov 8 22:06:28 2015 -0800
+
+    Correct documentation for Crash constructor
+
+[33mcommit 23c20050f39b33026d4defe7cc57cd3c69f0bb30[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Nov 8 15:06:39 2015 -0800
+
+    Find rop gadgets before tracing, use reverse name maps to find symbolic memory at crash time, and add more debug logging
+
+[33mcommit 16a8c7cacad55ee411caeee46be51590f7c7d4ae[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Nov 8 00:55:16 2015 -0800
+
+    Fix bug in _stack_control, was miscalculating symbolic control when a symbolic region ended at sp
+
+[33mcommit a4a308c28346200ad19862c0f78d596e2b369644[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Nov 7 23:28:38 2015 -0800
+
+    Check length of ordered exploits before indexing into the list
+
+[33mcommit 9b41306d927670c1d9241f6112e96c85ae748a1a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Nov 7 21:01:29 2015 -0800
+
+    Call Jmp SP shellcode technique can now only be applied to unix targets
+
+[33mcommit 4dac0f6a8e8521a8f4ea1ccde528695bebe18ea9[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Nov 6 22:28:15 2015 -0800
+
+    Update TODO with an improvement
+
+[33mcommit dee413ad7d3329d05bcd93b8aa58f2e05a2e6a78[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Nov 5 15:15:55 2015 -0800
+
+    Remove cgc.payload from setup.py
+
+[33mcommit 8a503c3e4048f3db36d988b57292f5458c713411[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Oct 31 22:51:30 2015 -0700
+
+    Format message in CannotExploit exception correctly
+
+[33mcommit d09beebbd3188b4ecf42a140435292a687c8d79d[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Oct 31 22:49:08 2015 -0700
+
+    Update CGC stacksmash testcase to test leaking
+
+[33mcommit 7f5fad209fc09bd7bb9d07eba5334f0c970346f3[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Oct 31 22:15:01 2015 -0700
+
+    Can now create Type2 CGC exploits with rop
+
+[33mcommit 6edb36a6b98dedac53e5336b4f756a195713f9c1[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Oct 31 21:24:19 2015 -0700
+
+    Update testcase to test control of eax and esp for CGC stacksmashing example
+
+[33mcommit 4e4c0a8d93705edd21383402db4c9fdd9b510485[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Oct 31 21:13:55 2015 -0700
+
+    Fixes for CGC rop_set_register
+
+[33mcommit e2772eb49034f46dab3d3a08e8b33d8884fd1448[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Oct 31 20:40:30 2015 -0700
+
+    Add circumstantial register setting technique to CGC Type1 exploits
+
+[33mcommit 68aa48b3ddf360c0f0c90abfb1835c02ec86d2cc[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Oct 31 20:11:57 2015 -0700
+
+    Move script dumping for CGC Type1s into cgc_type1_exploit
+
+[33mcommit 0ee0f14c76668ba2c7c2e9f9856b2c8b70946d05[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Oct 31 20:05:13 2015 -0700
+
+    Update log names for all techniques
+
+[33mcommit 6fe1f0ca7447c314005c496dd2fd85ab51ff15c7[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Oct 31 17:07:38 2015 -0700
+
+    Update TODO
+
+[33mcommit a81c7b6a7ba95a0e3b0f7b190db2c68509cd7cb2[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Oct 30 23:17:27 2015 -0700
+
+    Select register setting exploits based on grade
+
+[33mcommit df790056754a4c9951003c020e73b793cc8bcd29[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Oct 30 22:46:42 2015 -0700
+
+    Can now use shellcode for CGC Type1 exploits and all Exploit objects have bypasses_nx and bypasses alsr attributes for exploit grading
+
+[33mcommit 21b873cdfff4ef676dc3a260c6937a07be6f153e[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Oct 30 22:09:49 2015 -0700
+
+    Crash copy method copies os and aslr attributes
+
+[33mcommit de1ec5278a84792a4043017195da026581e5ac54[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Oct 30 21:01:24 2015 -0700
+
+    Now it's really called rex
+
+[33mcommit 06413983bdf4e56a789383801a931102ac196961[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Oct 30 20:53:10 2015 -0700
+
+    Fix name in gitlab-ci file
+
+[33mcommit 936f02326c6a20617d122bc63ee6682325846d34[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Oct 30 20:36:26 2015 -0700
+
+    Improve symbolic memory region aggregation
+
+[33mcommit 6b8fecfcd28992e6e833dfc3ce080316510a1df8[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Oct 30 18:12:18 2015 -0700
+
+    Add incomplete testcase for exploitation of linux binaries
+
+[33mcommit e04062593db35de72e31f16210f1b7a72b82b8f8[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Oct 30 17:44:14 2015 -0700
+
+    Update TODO
+
+[33mcommit 0c442b66781f970647dfaf31d7a649b94a422070[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Oct 30 17:05:07 2015 -0700
+
+    Make 'os' an attribute of a Crash object
+
+[33mcommit 863cf9234cb799843875c1abcabc00bae8659ff9[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Oct 30 16:57:29 2015 -0700
+
+    Crash objects have an 'aslr' attribute
+
+[33mcommit 0a4db2f97bb5b7a2a99db557af2e9c3fdfb02b2d[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Oct 30 16:38:53 2015 -0700
+
+    Shellcodes can now support more than one platform
+
+[33mcommit 6cf799db3fb5c8cfa3cca3bce14232f7f6e9d286[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Oct 29 22:01:26 2015 -0700
+
+    Use a CGCExploitFactory to collect exploits for CGC binaries and update testcase
+
+[33mcommit 4708a29a3352a8bc7c38937e6efb5cace280b09f[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Oct 29 20:23:42 2015 -0700
+
+    Remove tracer import from testcase
+
+[33mcommit 2e01a71b97835a4b1f11d06cc88530cb48a2b176[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Oct 29 19:25:49 2015 -0700
+
+    Add testcase
+
+[33mcommit 648084386b9532d6056fef3262f277cf73228218[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Oct 29 17:48:04 2015 -0700
+
+    Get CGC exploitation working again, needs better organization still
+
+[33mcommit 038b83d5f4ea9f3348af9598aeb1d8cc952ca841[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Oct 28 00:25:46 2015 -0700
+
+    Update BVV usage for claripy refactor
+
+[33mcommit 85211b0018c219a9bbdfb7784a4bb7b8f0974c23[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Oct 27 23:50:13 2015 -0700
+
+    No difference between CGC and Unix exploit factories, but new CGCExploit object
+
+[33mcommit 09e0de2bc0524a97953d388135aa09f3933bdc66[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Oct 16 17:48:41 2015 -0700
+
+    Add return to gets exploit helper
+
+[33mcommit f6b01d07c50019f7702528e96884ed5310c8ae5c[m
+Author: Yan <yans@yancomm.net>
+Date:   Tue Oct 13 22:31:33 2015 -0700
+
+    remove messy pip
+
+[33mcommit 44067c543ba273ff57343cd7d92f926426a16ca5[m
+Author: Yan <yans@yancomm.net>
+Date:   Tue Oct 13 22:30:40 2015 -0700
+
+    Revert "different pippery"
+    
+    This reverts commit ed3f461790a2ef948f307d237c4a953fbff3ec31.
+
+[33mcommit ed3f461790a2ef948f307d237c4a953fbff3ec31[m
+Author: Yan <yans@yancomm.net>
+Date:   Tue Oct 13 22:20:58 2015 -0700
+
+    different pippery
+
+[33mcommit 7183f865f2a160b2b953d8c5b1d566bb8552d2a6[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Oct 7 22:44:24 2015 -0700
+
+    Shell out to pip to install dependencies from private repos, this is pretty gross, but other options didn't appear to work
+
+[33mcommit 2043453223634bc0d7383ec6c9b5167aa732c42a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Oct 7 22:27:15 2015 -0700
+
+    Update README with python highlighting and setup.py with colon removed
+
+[33mcommit e66adafce5cbef573bb2df4a1c55fe705d4a894c[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Oct 7 22:15:34 2015 -0700
+
+    Reorder parameters in setup.py
+
+[33mcommit 4ae694bd1fab529fc787aa6a4894c4a6357cf3ed[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Oct 7 22:12:44 2015 -0700
+
+    Really add version numbers
+
+[33mcommit d1ac8aa38a9445a9bf0107b4e3a1c0fc150f5819[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Oct 7 22:09:10 2015 -0700
+
+    Add version number requirements
+
+[33mcommit 6d0820392e82c7a43778610c771dd95464abbad1[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Oct 7 22:02:54 2015 -0700
+
+    Add version number to eggname in setup.py
+
+[33mcommit 4adfaecd28958fe57f907ed7ee1cbc3ef25a120c[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Oct 7 22:00:38 2015 -0700
+
+    Fix setup.py usage of private repos
+
+[33mcommit 2a3e9ccf270687bf3a6950b9036411d4ff2164e3[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Oct 7 21:33:54 2015 -0700
+
+    Format setup.py nicer
+
+[33mcommit e0fbe78f2b8c0118d3a7e8cefe5df95f321ef37b[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Oct 7 17:32:24 2015 -0700
+
+    Now install requirements in setup.py and include a requirements.txt file
+
+[33mcommit 3891b62b339414ababafa612a78893fb951997fc[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Sep 23 20:06:39 2015 -0700
+
+    Update to using angrop
+
+[33mcommit e06cd3d02771eed3665a1b55e269e94031b8e801[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Sep 16 17:09:26 2015 -0700
+
+    Crash tracing explicitly turns of misfollow resiliency
+
+[33mcommit 747cc6f4da27b9a5c35b0a6c197488033db6b749[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 15 22:38:02 2015 -0700
+
+    Catch RopException when attempting to read in global data
+
+[33mcommit ed22cd67ef5083b5dc78bfd8056755f3bc528a9a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 15 22:37:40 2015 -0700
+
+    Add connectback shellcodes for X86 and AMD64
+
+[33mcommit fe5b8e41ef2f8b97a885a490071eea50b20cfcac[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 15 22:14:51 2015 -0700
+
+    Allow passing in of shellcode options
+
+[33mcommit 1baadf3d2eececd8fa8389ecf4c4f1897e86bf79[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 15 21:09:53 2015 -0700
+
+    Reorganize shellcode creation and add CGC register setting shellcode
+
+[33mcommit 26ba8b3055c21797514a8f9dfc131899ea9c9edc[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 15 18:57:54 2015 -0700
+
+    Rename ShellcodeManager to ShellcodeFactory
+
+[33mcommit b5f106e736eead4d7fd5f909b9308ff92b3a9e90[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 15 17:41:55 2015 -0700
+
+    Rename Payload to Exploit, Rename Exploit to ExploitFactory
+
+[33mcommit 956e5e3825915c090cebc4c504e605b8b532672b[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 15 01:36:21 2015 -0700
+
+    Add easy mass exploit dumper
+
+[33mcommit 1a6bd7fbf1f1496bbe98d9c20df5817af24a1e81[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Sep 14 23:09:57 2015 -0700
+
+    Update techniques to attempt a read in of data if it can't be fit in globally
+
+[33mcommit 7b1a721f57133049c82a486df3393df677daea07[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Sep 14 19:07:04 2015 -0700
+
+    Complete a sentence in a comment
+
+[33mcommit 94969d9523d004ec523bf4f249e596c22b3a3bee[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Sep 14 19:05:45 2015 -0700
+
+    Pass in kwargs to apply in technique
+
+[33mcommit 5753aad1b4865e8cb41809ddb6b23cca00b56a2e[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Sep 14 18:57:01 2015 -0700
+
+    Reorganize repo, exploit objects now defer most of the work to techniques whcih can be applied one-by-one, shellcode is now handled by a ShellcodeManager object which handles preferred shellcode setting and architecture agnostic shellcode distribution
+
+[33mcommit 7f6b72dd3144cd46d2a3a3a7e24c6740d2dd3f8a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Sep 10 14:42:15 2015 -0700
+
+    Add 'jmp sp' shellcode injection method
+
+[33mcommit 5342843b8aa6e381a503b4450fb34e4793564b0a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Sep 9 23:55:37 2015 -0700
+
+    Add basic support for creating exploit scripts
+
+[33mcommit aca5e090bd2d76978c1a5b5de2e6aeaf9f27f5ed[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Sep 9 22:23:16 2015 -0700
+
+    Linux exploits now try to produce many exploits and return Payload objects
+
+[33mcommit d08be2fd7e6b577830ed9d5c84f1a0a7a6e2c9ba[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Sep 9 21:55:26 2015 -0700
+
+    Payload now takes a crash instead of binary name
+
+[33mcommit 34ead8316c006a849fe4c11fc30c03a0bf05143b[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Sep 9 21:46:07 2015 -0700
+
+    Move payload down two levels to make it accessible to all exploits
+
+[33mcommit 7721e70311d9d10c800106cbd6963a0a5baee469[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Sep 9 20:23:11 2015 -0700
+
+    Can specify preferred function to return to for Linux exploit creation
+
+[33mcommit 9f26595e9c1114e8c7fffc0ce157b5af69caa0d4[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Wed Sep 9 00:37:33 2015 -0700
+
+    Linux exploits can now use shellcode
+
+[33mcommit 938222bad8582ee2ff2e49154c9469fa143efec2[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 8 20:38:37 2015 -0700
+
+    Looks like payload_str is a method and not an attribute
+
+[33mcommit 03f05279332496a948c66219369dea8ad29f07cc[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 8 20:34:46 2015 -0700
+
+    Oops, we want to only loop again if it's not satisfiable
+
+[33mcommit eb238ac0861987df982227db70e74c9548a9affb[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 8 20:33:02 2015 -0700
+
+    Construct BVV off the chain's payload string rather than the chain object in eip_overwrite_with_chain
+
+[33mcommit 50de7af09ca56721f475f2b66bb088686961a7a0[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 8 19:17:49 2015 -0700
+
+    If system is found in the binary, but we were unable to create an exploit don't give up
+
+[33mcommit eafe3768c57fd5aeeb71ca8c32efc691c08be99d[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 8 19:12:44 2015 -0700
+
+    Test chain placement satisfiability before handing back chain overwrite parameters in eip_overwrite_with_chain
+
+[33mcommit d7741ac033a19a3b024875d544f08f588b1cec5c[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 8 18:23:05 2015 -0700
+
+    drop_shell can optionally write to a file and reorganize some functions
+
+[33mcommit c6686abde0dca8a59746ab598f4154ef260cfff6[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 8 17:48:17 2015 -0700
+
+    Add messages to thrown exceptions and add support for partial ip overwrites in linux exploitation
+
+[33mcommit 3ec1c33bae243ac425cf6fcb7bf145eb7e346b36[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 8 17:10:41 2015 -0700
+
+    Try hard to write a command into a global buffer
+
+[33mcommit d9c8f2f836740af611f89def6d84a6858c2bd645[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 8 15:52:24 2015 -0700
+
+    Symbolic memory regions are now merged when created
+
+[33mcommit 54ee36479cbcd8ba640e10005c16b9e2f14dc0d1[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Sep 8 00:40:02 2015 -0700
+
+    Add very basic code for linux exploitation
+
+[33mcommit b47cd35e350b6b95c3cbe05cff878e0413ad390c[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Sep 7 23:18:19 2015 -0700
+
+    Make LinuxExploit object importable
+
+[33mcommit 78e94a2a51ed1d0ef29cbae51971ee641e27affb[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Sep 7 23:09:04 2015 -0700
+
+    Reorganize rex exploit classes, CGCExploit is now a subclass of Exploit
+
+[33mcommit 592a4dac377867024e16a908cf82c32f155a174a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Sep 7 18:04:13 2015 -0700
+
+    Update TODO
+
+[33mcommit 93f8b126cafcc920ee4a2b1d8a6014c092fc5bf0[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Aug 30 16:19:10 2015 -0700
+
+    Rename TriageNonCrashingInput to NonCrashingInput
+
+[33mcommit f013865dde55477a46358f0d1f01af9b1ce5b3c7[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sun Aug 30 16:18:25 2015 -0700
+
+    Add exploit method to Crash and move crash and vulnerability classifications to a seperate submodule
+
+[33mcommit d0133f733d03e61669763f83e491b068788b43a6[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Sat Aug 29 21:29:55 2015 -0700
+
+    Make CannotExploit accessible
+
+[33mcommit 00adbd142bc0d8731ac5d1cbf69467cdf9d036ff[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Aug 28 22:52:11 2015 -0700
+
+    Now check to see if the path is at a syscall opposed to past a syscall in Payload's _windup_state
+
+[33mcommit 0973aa17277308ba4a5fb8d40430e61044cc50d9[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Aug 28 22:31:08 2015 -0700
+
+    Exploit partial IP overwrites and cache ROP gadgets in /tmp
+
+[33mcommit 1607e58b229cda2d32fc53be5356d88f77cf9588[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Aug 28 18:12:37 2015 -0700
+
+    Add TODO
+
+[33mcommit 1f9858204527c69c2bb32431619fa6ec2435a2bc[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Aug 28 18:06:57 2015 -0700
+
+    If not rop_cache_file is specified place the cache into tmp
+
+[33mcommit 0ac9b0c5dd0bee6bb1e7bc3c52411d4e3c2b9efa[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Aug 28 17:20:44 2015 -0700
+
+    Leverage ROP gadget caching in Exploit if requested
+
+[33mcommit 0c6c9ba1b0a5c3f75267a18eb55d189a4e2f4479[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Aug 28 16:58:13 2015 -0700
+
+    Leaker now sets 'esi' or tx_bytes properly
+
+[33mcommit db9dbd3e139d496a8367a1986212164afb84afd8[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Aug 28 14:57:28 2015 -0700
+
+    Reorganize leaker exploit generation
+
+[33mcommit e847133a743b9f7ed6ef1f74815cba914611dffa[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Aug 28 14:41:27 2015 -0700
+
+    Add any_control method to Exploit so we can easily judge an exploit's worth
+
+[33mcommit 72aa5ab1ff9ebc91fd1fffe120c923b0620cfcea[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Fri Aug 28 14:20:53 2015 -0700
+
+    Update setup.py to include new packages
+
+[33mcommit 7080fc026373f77642fceb87e7208b3a8c2801b4[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Aug 27 20:50:12 2015 -0700
+
+    Add leak_address example to README
+
+[33mcommit 38b4cf697d4a29ba62cbf27a1929626929336069[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Aug 27 20:47:53 2015 -0700
+
+    Constrain the register values set in the Leaker right before the syscall occurs
+
+[33mcommit 16d9fd0701e5be9df6ed4578551f7a158c95a0ea[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Aug 27 19:15:22 2015 -0700
+
+    All descendants of Payload have a binary attribute which stores the file string of the associated binary
+
+[33mcommit 804619c34ba8de87f82eeb5259713f31be74ae04[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Aug 27 19:04:15 2015 -0700
+
+    Reorganize Setters and Leakers into Payloads
+
+[33mcommit 947636960bbef99147db8c9d1dbae16347d90bd1[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Thu Aug 27 17:39:31 2015 -0700
+
+    Add basic leak generation, the circumstantial register recovery still needs work
+
+[33mcommit 199ff29c40437366054fd848fc1125b4e7db928c[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Aug 25 22:25:26 2015 -0700
+
+    Small README fixes
+
+[33mcommit 2d9403a50f2fa67ea6b3c21b331735ac668928bb[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Aug 25 22:22:59 2015 -0700
+
+    Setter now requests chains directly from an angrop instance opposed to accepting a premade chain, besides that general organization fixes
+
+[33mcommit a128080e561206e738c03e8230308d7d05f1d1db[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Aug 25 19:42:50 2015 -0700
+
+    Add simple README
+
+[33mcommit 440617345e3265407eecc10612c8d1477a7adda6[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Aug 25 18:45:51 2015 -0700
+
+    Clean up some pylint warnings
+
+[33mcommit e702b698941132e1798855b5661786f1485facd3[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Aug 25 18:42:09 2015 -0700
+
+    Now creates a register setter for EDX
+
+[33mcommit 92c729be6bfab1374f89bd0c3abeffa16e752b95[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Aug 25 14:22:14 2015 -0700
+
+    Detect partial overwrites of ip and bp and make them seperate vulnerability classifications
+
+[33mcommit 9b3d64bbe4b76709dacaa1b5e05c9b83c206b927[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Aug 25 13:52:43 2015 -0700
+
+    Remove unnecessary imports and trailing whitespace
+
+[33mcommit 686b6a770a160267089a7e3f2c8b3f917e67da81[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Aug 25 13:44:50 2015 -0700
+
+    Rename to rex
+
+[33mcommit f9d2197947b9613b8b53bf3e2456792aff06b40a[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Aug 25 13:41:17 2015 -0700
+
+    Rename ebp and eip to more general bp and ip, also do some probabilistic unconstrained checking in the circumstantial register setter generator
+
+[33mcommit 8d76f8e4f8490e843fe69411d39677fb6a2fcbb2[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Tue Aug 25 12:44:06 2015 -0700
+
+    First try the rop setter, then the circumstantial setter
+
+[33mcommit 5b36a8a2fe8ff74de958c3f4e61f2b6c19673b7e[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Aug 24 22:11:46 2015 -0700
+
+    Add circumstantial setters
+
+[33mcommit 8755bbe61821abdec764a05c2eabc6bfe8b25789[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Aug 24 21:24:03 2015 -0700
+
+    Can now create exploit wrappers which when initialized attempt to produce code which can set all the possible registers
+
+[33mcommit 61d138d2d8efd0f0da6f48639b4913171e6384f1[m
+Author: Nick Stephens <nick.d.stephens@gmail.com>
+Date:   Mon Aug 24 19:21:34 2015 -0700
+
+    Inital commit, poorly organized, but can generated simple exploits

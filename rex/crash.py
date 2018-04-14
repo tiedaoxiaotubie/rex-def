@@ -12,7 +12,8 @@ from rex.exploit import CannotExploit, CannotExplore, ExploitFactory, CGCExploit
 from rex.vulnerability import Vulnerability
 from angr import sim_options as so
 from angr.state_plugins.trace_additions import ChallRespInfo, ZenPlugin
-
+from tracer import getlibcfunctionaddr
+from angr.procedures.definitions.glibc import libc
 
 class NonCrashingInput(Exception):
     pass
@@ -57,7 +58,14 @@ class Crash(object):
         if self.explore_steps > 10:
             raise CannotExploit("Too many steps taken during crash exploration")
 
+
         self.project = angr.Project(binary)
+
+        libc_funcs = getlibcfunctionaddr.get_known_libc_functionaddr(self.project.filename)
+
+        for addr, name in libc_funcs.items():
+            if name in set(libc.procedures):
+                self.project.hook(int(addr, 16), libc.procedures[name])
         for addr, proc in self.hooks.iteritems():
             self.project.hook(addr, proc)
             l.debug("Hooking %#x -> %s...", addr, proc.display_name)
