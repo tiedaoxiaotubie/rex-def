@@ -20,9 +20,9 @@ class NonCrashingInput(Exception):
 
 
 class Crash(object):
-    '''
+    """
     Triage a crash using angr.
-    '''
+    """
 
     def __init__(self, binary, crash=None, pov_file=None, aslr=None, constrained_addrs=None, crash_state=None,
                  prev_path=None, hooks=None, format_infos=None, rop_cache_tuple=None, use_rop=False,
@@ -65,7 +65,7 @@ class Crash(object):
             l.debug("Hooking %#x -> %s...", addr, proc.display_name)
 
         if self.project.loader.main_object.os == 'cgc':
-            self.project._simos.syscall_library.update(angr.SIM_LIBRARIES['cgcabi_tracer'])
+            self.project.simos.syscall_library.update(angr.SIM_LIBRARIES['cgcabi_tracer'])
 
         # we search for ROP gadgets now to avoid the memory exhaustion bug in pypy
         # hash binary contents for rop cache name
@@ -128,13 +128,22 @@ class Crash(object):
             else:
                 input = self.crash
 
-            r = tracer.QEMURunner(binary=binary, input=input)
+            r = tracer.QEMURunner(binary=binary, input=input, argv=argv)
 
-            s = self.project.factory.tracer_state(input_content=input,
-                                                  magic_content=r.magic,
-                                                  add_options=add_options,
-                                                  remove_options=remove_options,
-                                                  constrained_addrs=self.constrained_addrs)
+            if self.project.loader.main_object.os == 'cgc':
+                s = self.project.factory.tracer_state(input_content=input,
+                                                      magic_content=r.magic,
+                                                      add_options=add_options,
+                                                      remove_options=remove_options,
+                                                      constrained_addrs=self.constrained_addrs)
+
+            elif self.project.loader.main_object.os.startswith('UNIX'):
+                s = self.project.factory.tracer_state(input_content=input,
+                                                      magic_content=r.magic,
+                                                      add_options=add_options,
+                                                      remove_options=remove_options,
+                                                      constrained_addrs=self.constrained_addrs,
+                                                      args=argv)
 
             simgr = self.project.factory.simgr(s,
                                                save_unsat=True,
@@ -574,7 +583,7 @@ class Crash(object):
         for c in cons:
             new_c = c.replace_dict(replace_dict)
             new_cons.append(new_c)
-        state.release_plugin("solver_engine")
+        state.release_plugin("solver")
         state.add_constraints(*new_cons)
         state.downsize()
         state.se.simplify()
@@ -712,11 +721,12 @@ class Crash(object):
 
 class QuickCrash(object):
 
-    def __init__(self, binary, crash):
+    def __init__(self, binary, crash, argv=None):
         """
         Quickly triage a crash with just QEMU. Less accurate, but much faster.
-        :param binary: path to binary which crashed
-        :param crash: input which caused crash
+        :param binary: Path to binary which crashed.
+        :param crash : Input which caused crash.
+        :param argv  : Optionally specify argv params (i,e,: ['./calc', 'parm1']).
         """
 
         self.binary = binary
@@ -724,21 +734,21 @@ class QuickCrash(object):
         self.crash = crash
 
         self.bb_count = None
-        self.crash_pc, self.kind = self._quick_triage(binary, crash)
+        self.crash_pc, self.kind = self._quick_triage(binary, crash, argv=argv)
 
-    def _quick_triage(self, binary, crash):
+    def _quick_triage(self, binary, crash, argv=None):
 
         l.debug("quick triaging crash against '%s'", binary)
 
         arbitrary_syscall_arg = False
-        r = tracer.QEMURunner(binary, crash, record_trace=True, use_tiny_core=True, record_core=True)
+        r = tracer.QEMURunner(binary, crash, record_trace=True, use_tiny_core=True, record_core=True, argv=argv)
 
         self.bb_count = len(r.trace)
 
         if not r.crash_mode:
 
             # try again to catch bad args
-            r = tracer.QEMURunner(binary, crash, report_bad_args=True, record_core=True)
+            r = tracer.QEMURunner(binary, crash, report_bad_args=True, record_core=True, argv=argv)
             arbitrary_syscall_arg = True
             if not r.crash_mode:
                 raise NonCrashingInput("input did not cause a crash")
@@ -778,7 +788,10 @@ class QuickCrash(object):
 
         l.debug("checking if ip register points to executable memory")
 
-        start_state = project.factory.entry_state(addr=pc, add_options={so.TRACK_MEMORY_ACTIONS})
+        if project.loader.main_object.os == 'cgc':
+            start_state = project.factory.entry_state(addr=pc, add_options={so.TRACK_MEMORY_ACTIONS})
+        elif project.loader.main_object.os.startswith('UNIX'):
+            start_state = project.factory.entry_state(addr=pc, add_options={so.TRACK_MEMORY_ACTIONS}, args=argv)
 
         # was ip mapped?
         ip_overwritten = False
