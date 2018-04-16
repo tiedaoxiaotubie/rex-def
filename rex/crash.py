@@ -25,7 +25,7 @@ class Crash(object):
     """
 
     def __init__(self, binary, crash=None, pov_file=None, aslr=None, constrained_addrs=None, crash_state=None,
-                 prev_path=None, hooks=None, format_infos=None, rop_cache_tuple=None, use_rop=False,
+                 prev_path=None, hooks=None, format_infos=None, rop_cache_tuple=None, use_rop=True,
                  explore_steps=0, angrop_object=None):
         '''
         :param binary: path to the binary which crashed
