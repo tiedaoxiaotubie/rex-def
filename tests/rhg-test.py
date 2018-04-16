@@ -18,11 +18,12 @@ from angr.procedures.definitions.glibc import libc
 def rhg_prepre_paths():
     exclude_sim_procedures_list = ["free", "calloc", "realloc"]
     #crash_path = '/home/vagrant/angrsource/angr-dev/binaries/tests/CRASH/90_pwn10/11/id_000081_fuzzer-2_90_pwn10'
-    crash_path = '/home/vagrant/angrsource/angr-dev/binaries/tests/CRASH/88_pwn08/11/id_000000_fuzzer-1_88_pwn08'
+    crash_path = '/home/crossfire/defcon-china/angr-dev/binaries/tests/CRASH/id_000000_fuzzer-1_88_pwn08'
     f = open(crash_path,'rb')
     data = f.read()
     #crash = rex.Crash(os.path.join(bin_location, "tests/work/bin"), data)
-    crash = rex.Crash(os.path.join(bin_location, "tests/work/88"),data)
+    crash = rex.Crash(os.path.join(bin_location, "tests/work/pwn08"),data)
+    exploit = crash.exploit()
     if not crash.explorable():
         print 'ready to exploit'
         OWEIP = "0x41414141"
